@@ -1,0 +1,26 @@
+2026-03-15 14:34:20,840 [INFO] Connected: 10401216 | FBS-Demo | Balance: 100.89
+2026-03-15 14:34:23,392 [INFO] Training on 20000 candles...
+2026-03-15 14:34:23,582 [INFO] Features: 37, Samples: 19981
+2026-03-15 14:34:23,583 [INFO] Label distribution: {1: 7954, -1: 7813, 0: 4214}
+2026-03-15 14:34:31,331 [INFO] Model saved
+2026-03-15 14:34:31,332 [INFO] Training done — accuracy: 39.5%
+2026-03-15 14:34:42,731 [INFO] MT5 disconnected
+2026-03-15 14:34:43,234 [INFO] Loading credentials from C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\mt5_config.json
+2026-03-15 14:35:50,612 [ERROR] MT5 init failed: (-10005, 'IPC timeout')
+2026-03-15 14:35:50,613 [ERROR] MT5 connection failed. Check your credentials and that MT5 is running.
+2026-03-15 14:37:31,440 [INFO] Loading credentials from C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\mt5_config.json
+2026-03-15 14:37:32,406 [INFO] Connected: 10401216 | FBS-Demo | Balance: 100.89
+2026-03-15 14:37:34,596 [INFO] Training on 10000 candles...
+2026-03-15 14:37:34,726 [INFO] Features: 37, Samples: 9981
+2026-03-15 14:37:34,727 [INFO] Label distribution: {0: 4152, -1: 3026, 1: 2803}
+2026-03-15 14:37:38,090 [INFO] Model saved
+2026-03-15 14:37:38,091 [INFO] Training done — accuracy: 58.1%
+2026-03-15 14:37:38,098 [INFO] MT5 disconnected
+2026-03-15 14:42:55,357 [INFO] Loading credentials from C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\mt5_config.json
+2026-03-15 14:42:56,507 [INFO] Connected: 10401216 | FBS-Demo | Balance: 100.89
+2026-03-15 14:42:58,958 [INFO] Training on 10000 candles...
+2026-03-15 14:42:59,091 [INFO] Features: 37, Samples: 9981
+2026-03-15 14:42:59,092 [INFO] Label distribution: {0: 4152, -1: 3026, 1: 2803}
+2026-03-15 14:43:03,785 [INFO] Model saved
+2026-03-15 14:43:03,786 [INFO] Training done — accuracy: 58.1%
+2026-03-15 14:43:03,793 [INFO] MT5 disconnected

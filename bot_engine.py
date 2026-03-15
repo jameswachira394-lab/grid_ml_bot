@@ -27,7 +27,7 @@ class BotEngine:
         mt5:         MT5Connector,
         ml:          GridMLEngine,
         risk:        RiskManager,
-        symbol:      str     = "EURUSD",
+        symbol:      str     = "XAUUSD",
         timeframe:   str     = "M1",
         on_update:   Callable = None,   # callback(state_dict) → push to dashboard
         tick_interval: float  = 1.0,    # seconds between ticks

@@ -47,3 +47,142 @@ ValueError: invalid literal for int() with base 10: ''
 2026-03-15 14:28:01,134 [INFO] __main__ — Dashboard client connected
 2026-03-15 14:28:46,473 [INFO] __main__ — Dashboard client disconnected
 2026-03-15 14:28:50,123 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:29:35,471 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:29:37,140 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:30:22,202 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:30:24,123 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:31:09,148 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:31:10,122 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:31:55,444 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:31:57,128 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:32:42,453 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:32:44,138 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:33:29,481 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:33:31,154 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:34:16,483 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:38:35,397 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:39:20,719 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:39:22,136 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:40:07,156 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:40:09,142 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:40:54,162 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:40:56,130 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:41:41,146 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:41:42,144 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:42:27,503 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:42:29,155 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:43:14,495 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:43:16,144 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:43:34,973 [INFO] __main__ — Grid ML Scalper server starting on http://localhost:5000
+2026-03-15 14:44:01,492 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:44:03,140 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:44:48,466 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:44:50,146 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:45:35,473 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:45:37,173 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:45:52,178 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:46:10,150 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 100.89
+2026-03-15 14:46:11,811 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-15 14:46:11,840 [INFO] bot_engine — [INFO] Grid built: NEUTRAL | 6 levels | confidence=65.6%
+2026-03-15 14:46:11,877 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 14:46:11,911 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 14:46:11,917 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 14:46:11,951 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 14:46:12,763 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 14:46:12,772 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 14:46:14,093 [INFO] risk_manager — New trading day — start balance: 100.89
+2026-03-15 14:46:22,790 [INFO] ml_engine — Model loaded from disk
+2026-03-15 14:46:23,403 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:46:24,585 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-15 14:46:24,586 [INFO] bot_engine — [INFO] Bot started
+2026-03-15 14:46:24,594 [INFO] bot_engine — Bot engine started
+2026-03-15 14:46:24,620 [INFO] ml_engine — Training on 5000 candles...
+2026-03-15 14:46:25,216 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-15 14:46:25,220 [INFO] ml_engine — Label distribution: {0: 4467, 1: 275, -1: 239}
+2026-03-15 14:46:25,918 [ERROR] bot_engine — Tick error: cannot use 'numpy.ndarray' as a dict key (unhashable type: 'numpy.ndarray')
+Traceback (most recent call last):
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 106, in _loop
+    self._tick()
+    ~~~~~~~~~~^^
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 153, in _tick
+    signal_data = self.ml.predict(df)
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\ml_engine.py", line 290, in predict
+    proba_dict = {label_map[c]: round(float(p)*100, 1) for c, p in zip(classes, proba)}
+                  ~~~~~~~~~^^^
+TypeError: cannot use 'numpy.ndarray' as a dict key (unhashable type: 'numpy.ndarray')
+2026-03-15 14:46:26,063 [INFO] bot_engine — [ERROR] cannot use 'numpy.ndarray' as a dict key (unhashable type: 'numpy.ndarray')
+2026-03-15 14:46:28,072 [ERROR] bot_engine — Tick error: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 106, in _loop
+    self._tick()
+    ~~~~~~~~~~^^
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 153, in _tick
+    signal_data = self.ml.predict(df)
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\ml_engine.py", line 285, in predict
+    proba    = self.model.predict_proba(X_scaled)[0]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 632, in _validate_X_predict
+    if self.estimators_[0]._support_missing_values(X):
+       ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2026-03-15 14:46:28,303 [INFO] bot_engine — [ERROR] list index out of range
+2026-03-15 14:46:29,652 [ERROR] bot_engine — Tick error: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 106, in _loop
+    self._tick()
+    ~~~~~~~~~~^^
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 153, in _tick
+    signal_data = self.ml.predict(df)
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\ml_engine.py", line 285, in predict
+    proba    = self.model.predict_proba(X_scaled)[0]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 632, in _validate_X_predict
+    if self.estimators_[0]._support_missing_values(X):
+       ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2026-03-15 14:46:29,662 [INFO] bot_engine — [ERROR] list index out of range
+2026-03-15 14:46:31,342 [ERROR] bot_engine — Tick error: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 106, in _loop
+    self._tick()
+    ~~~~~~~~~~^^
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 153, in _tick
+    signal_data = self.ml.predict(df)
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\ml_engine.py", line 285, in predict
+    proba    = self.model.predict_proba(X_scaled)[0]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 632, in _validate_X_predict
+    if self.estimators_[0]._support_missing_values(X):
+       ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2026-03-15 14:46:31,363 [INFO] bot_engine — [ERROR] list index out of range
+2026-03-15 14:46:32,517 [ERROR] bot_engine — Tick error: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 106, in _loop
+    self._tick()
+    ~~~~~~~~~~^^
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 153, in _tick
+    signal_data = self.ml.predict(df)
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\ml_engine.py", line 285, in predict
+    proba    = self.model.predict_proba(X_scaled)[0]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 632, in _validate_X_predict
+    if self.estimators_[0]._support_missing_values(X):
+       ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2026-03-15 14:46:32,534 [INFO] bot_engine — [ERROR] list index out of range
+2026-03-15 14:46:33,480 [INFO] ml_engine — Model saved
+2026-03-15 14:46:33,483 [INFO] ml_engine — Training done — accuracy: 91.1%
+2026-03-15 14:46:33,499 [INFO] bot_engine — [INFO] Retrain done — accuracy=91.1% | n_features=37
+2026-03-15 14:46:39,255 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:46:41,166 [INFO] __main__ — Dashboard client connected
+2026-03-15 14:47:26,495 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 14:47:28,150 [INFO] __main__ — Dashboard client connected
