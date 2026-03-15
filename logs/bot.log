@@ -1,0 +1,19 @@
+2026-03-15 14:08:18,992 [INFO] __main__ — Grid ML Scalper server starting on http://localhost:5000
+2026-03-15 14:14:49,760 [ERROR] server — Exception on /api/connect [POST]
+Traceback (most recent call last):
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\server.py", line 67, in api_connect
+    login    = int(data["login"]),
+               ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
