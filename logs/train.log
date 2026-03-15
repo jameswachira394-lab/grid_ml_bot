@@ -24,3 +24,19 @@
 2026-03-15 14:43:03,785 [INFO] Model saved
 2026-03-15 14:43:03,786 [INFO] Training done — accuracy: 58.1%
 2026-03-15 14:43:03,793 [INFO] MT5 disconnected
+2026-03-15 14:58:21,157 [INFO] Loading credentials from C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\mt5_config.json
+2026-03-15 14:58:23,968 [INFO] Connected: 10401216 | FBS-Demo | Balance: 100.89
+2026-03-15 14:58:26,533 [INFO] Training on 10000 candles...
+2026-03-15 14:58:26,674 [INFO] Features: 37, Samples: 9981
+2026-03-15 14:58:26,675 [INFO] Label distribution: {0: 4152, -1: 3026, 1: 2803}
+2026-03-15 14:58:29,929 [INFO] Model saved
+2026-03-15 14:58:29,930 [INFO] Training done — accuracy: 58.1%
+2026-03-15 14:58:29,937 [INFO] MT5 disconnected
+2026-03-15 17:58:55,397 [INFO] Loading credentials from C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\mt5_config.json
+2026-03-15 17:58:57,042 [INFO] Connected: 10401216 | FBS-Demo | Balance: 117.7
+2026-03-15 17:59:00,191 [INFO] Training on 10000 candles...
+2026-03-15 17:59:00,346 [INFO] Features: 37, Samples: 9981
+2026-03-15 17:59:00,351 [INFO] Label distribution: {0: 4152, -1: 3026, 1: 2803}
+2026-03-15 17:59:03,893 [INFO] Model saved
+2026-03-15 17:59:03,893 [INFO] Training done — accuracy: 58.1%
+2026-03-15 17:59:03,901 [INFO] MT5 disconnected
