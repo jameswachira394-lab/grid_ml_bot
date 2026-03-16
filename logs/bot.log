@@ -189,3 +189,1613 @@ IndexError: list index out of range
 2026-03-15 18:08:20,997 [INFO] __main__ — Grid ML Scalper server starting on http://localhost:5000
 2026-03-15 18:08:30,717 [INFO] __main__ — Dashboard client connected
 2026-03-15 18:14:10,630 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:21:57,935 [INFO] __main__ — Grid ML Scalper server starting on http://localhost:5000
+2026-03-15 18:22:03,445 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:22:26,866 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:22:44,861 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 117.7
+2026-03-15 18:22:44,966 [INFO] ml_engine — Model loaded from disk
+2026-03-15 18:22:44,974 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-15 18:22:44,974 [INFO] bot_engine — [INFO] Bot started
+2026-03-15 18:22:45,001 [INFO] bot_engine — Bot engine started
+2026-03-15 18:22:45,008 [INFO] ml_engine — Training on 5000 candles...
+2026-03-15 18:22:45,587 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-15 18:22:45,592 [INFO] ml_engine — Label distribution: {0: 4152, 1: 426, -1: 403}
+2026-03-15 18:22:47,933 [INFO] ml_engine — Model saved
+2026-03-15 18:22:47,934 [INFO] ml_engine — Training done — accuracy: 70.1%
+2026-03-15 18:22:47,935 [INFO] bot_engine — [INFO] Retrain done — accuracy=70.1% | n_features=37
+2026-03-15 18:22:47,937 [INFO] risk_manager — New trading day — start balance: 117.70
+2026-03-15 18:23:12,288 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:23:13,457 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:23:13,815 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:23:14,140 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:23:59,160 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:23:59,259 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:24:00,663 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:24:01,143 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:24:46,014 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:24:46,511 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:24:46,681 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:24:48,137 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:25:18,348 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-15 18:25:18,349 [INFO] bot_engine — [INFO] Grid built: NEUTRAL | 6 levels | confidence=55.0%
+2026-03-15 18:25:18,351 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 18:25:18,351 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 18:25:18,352 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 18:25:18,353 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 18:25:18,353 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 18:25:18,354 [INFO] bot_engine — [ERROR] Order failed: AutoTrading disabled by client
+2026-03-15 18:25:31,975 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:25:33,157 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:25:33,232 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:25:35,160 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:26:18,565 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:26:18,702 [WARNING] risk_manager — Daily DD breached: 3.40% >= 2.0%
+2026-03-15 18:26:18,705 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-15 18:26:18,707 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-15 18:26:18,710 [INFO] bot_engine — Bot engine stopped
+2026-03-15 18:26:20,164 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:26:20,200 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:26:22,123 [INFO] __main__ — Dashboard client connected
+2026-03-15 18:29:42,217 [INFO] __main__ — Dashboard client disconnected
+2026-03-15 18:29:42,220 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:27:41,330 [INFO] __main__ — Grid ML Scalper server starting on http://localhost:5000
+2026-03-16 08:28:07,761 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:29:18,739 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 131.06
+2026-03-16 08:29:18,882 [INFO] ml_engine — Model loaded from disk
+2026-03-16 08:29:18,890 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 08:29:18,890 [INFO] bot_engine — [INFO] Bot started
+2026-03-16 08:29:18,934 [INFO] bot_engine — Bot engine started
+2026-03-16 08:29:19,046 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 08:29:19,448 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 08:29:19,458 [INFO] ml_engine — Label distribution: {0: 4442, 1: 279, -1: 260}
+2026-03-16 08:29:22,126 [INFO] ml_engine — Model saved
+2026-03-16 08:29:22,126 [INFO] ml_engine — Training done — accuracy: 88.8%
+2026-03-16 08:29:22,128 [INFO] bot_engine — [INFO] Retrain done — accuracy=88.8% | n_features=37
+2026-03-16 08:29:22,128 [INFO] risk_manager — New trading day — start balance: 131.06
+2026-03-16 08:29:42,643 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:29:43,336 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:30:20,065 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:30:20,065 [INFO] bot_engine — [INFO] Grid built: NEUTRAL | 6 levels | confidence=60.4%
+2026-03-16 08:30:22,061 [INFO] bot_engine — [ERROR] Order failed: Invalid price
+2026-03-16 08:30:22,064 [INFO] bot_engine — [ERROR] Order failed: Invalid price
+2026-03-16 08:30:22,065 [INFO] bot_engine — [ERROR] Order failed: Invalid price
+2026-03-16 08:30:22,330 [INFO] risk_manager — Level filled: SELL @ 5008.3055 ticket=1610349747
+2026-03-16 08:30:22,330 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 5008.30550 lot=0.01 TP=5008.30150 SL=5008.30750
+2026-03-16 08:30:24,540 [INFO] risk_manager — Level filled: SELL @ 5008.306 ticket=1610349759
+2026-03-16 08:30:24,541 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 5008.30600 lot=0.01 TP=5008.30200 SL=5008.30800
+2026-03-16 08:30:24,798 [INFO] risk_manager — Level filled: SELL @ 5008.3065 ticket=1610350049
+2026-03-16 08:30:24,799 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 5008.30650 lot=0.01 TP=5008.30250 SL=5008.30850
+2026-03-16 08:30:25,912 [INFO] risk_manager — Level closed: ticket=1610349747 profit=0.00
+2026-03-16 08:30:25,912 [INFO] bot_engine — [TRADE] SL HIT SELL @ 5008.30550 profit=0.00
+2026-03-16 08:30:25,913 [INFO] risk_manager — Level closed: ticket=1610349759 profit=0.00
+2026-03-16 08:30:25,913 [INFO] bot_engine — [TRADE] SL HIT SELL @ 5008.30600 profit=0.00
+2026-03-16 08:30:25,914 [INFO] risk_manager — Level closed: ticket=1610350049 profit=0.00
+2026-03-16 08:30:25,914 [INFO] bot_engine — [TRADE] SL HIT SELL @ 5008.30650 profit=0.00
+2026-03-16 08:30:28,665 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:30:29,257 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:31:14,299 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:31:15,463 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:32:00,813 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:32:01,699 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:32:47,030 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:32:48,135 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:33:33,453 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:33:35,136 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:34:20,470 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:34:22,139 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:35:07,499 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:35:09,153 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:35:54,472 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:35:56,151 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:36:41,458 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:36:43,136 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:37:28,264 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:37:30,132 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:37:38,441 [WARNING] risk_manager — Daily DD breached: 3.97% >= 2.0%
+2026-03-16 08:37:38,442 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-16 08:37:38,442 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-16 08:37:38,443 [INFO] bot_engine — Bot engine stopped
+2026-03-16 08:38:15,488 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:38:17,132 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:39:05,833 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 08:39:05,844 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 08:39:05,968 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 08:39:05,970 [INFO] ml_engine — Label distribution: {0: 4440, 1: 279, -1: 262}
+2026-03-16 08:39:08,267 [INFO] ml_engine — Model saved
+2026-03-16 08:39:08,267 [INFO] ml_engine — Training done — accuracy: 89.0%
+2026-03-16 08:39:08,269 [INFO] bot_engine — [INFO] Retrain done — accuracy=89.0% | n_features=37
+2026-03-16 08:43:49,374 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 08:43:49,390 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 08:43:49,475 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 08:43:49,476 [INFO] ml_engine — Label distribution: {0: 4440, 1: 279, -1: 262}
+2026-03-16 08:43:51,356 [INFO] ml_engine — Model saved
+2026-03-16 08:43:51,357 [INFO] ml_engine — Training done — accuracy: 88.6%
+2026-03-16 08:43:51,359 [INFO] bot_engine — [INFO] Retrain done — accuracy=88.6% | n_features=37
+2026-03-16 08:44:16,486 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:44:16,664 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:44:30,405 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 270.94
+2026-03-16 08:44:30,663 [INFO] ml_engine — Model loaded from disk
+2026-03-16 08:44:30,700 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 08:44:30,700 [INFO] bot_engine — [INFO] Bot started
+2026-03-16 08:44:30,766 [INFO] bot_engine — Bot engine started
+2026-03-16 08:44:30,987 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 08:44:31,621 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 08:44:31,623 [INFO] ml_engine — Label distribution: {0: 2610, -1: 1274, 1: 1097}
+2026-03-16 08:44:33,799 [INFO] ml_engine — Model saved
+2026-03-16 08:44:33,800 [INFO] ml_engine — Training done — accuracy: 58.8%
+2026-03-16 08:44:33,801 [INFO] bot_engine — [INFO] Retrain done — accuracy=58.8% | n_features=37
+2026-03-16 08:44:33,802 [INFO] risk_manager — New trading day — start balance: 270.94
+2026-03-16 08:44:33,942 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:44:33,942 [INFO] bot_engine — [INFO] Grid built: NEUTRAL | 6 levels | confidence=65.4%
+2026-03-16 08:44:34,200 [INFO] risk_manager — Level filled: BUY @ 1.14335 ticket=1610387469
+2026-03-16 08:44:34,200 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14335 lot=0.01 TP=1.14375 SL=1.14035
+2026-03-16 08:44:34,472 [INFO] risk_manager — Level filled: BUY @ 1.14285 ticket=1610387474
+2026-03-16 08:44:34,474 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14285 lot=0.01 TP=1.14325 SL=1.13985
+2026-03-16 08:44:34,747 [INFO] risk_manager — Level filled: BUY @ 1.14235 ticket=1610387476
+2026-03-16 08:44:34,748 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14235 lot=0.01 TP=1.14275 SL=1.13935
+2026-03-16 08:44:35,015 [INFO] risk_manager — Level filled: SELL @ 1.14435 ticket=1610387477
+2026-03-16 08:44:35,017 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14435 lot=0.01 TP=1.14395 SL=1.14735
+2026-03-16 08:44:35,291 [INFO] risk_manager — Level filled: SELL @ 1.14485 ticket=1610387484
+2026-03-16 08:44:35,292 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14485 lot=0.01 TP=1.14445 SL=1.14785
+2026-03-16 08:44:35,561 [INFO] risk_manager — Level filled: SELL @ 1.14535 ticket=1610387489
+2026-03-16 08:44:35,562 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14535 lot=0.01 TP=1.14495 SL=1.14835
+2026-03-16 08:44:36,710 [INFO] risk_manager — Level closed: ticket=1610387469 profit=0.00
+2026-03-16 08:44:36,711 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14335 profit=0.00
+2026-03-16 08:44:36,711 [INFO] risk_manager — Level closed: ticket=1610387474 profit=0.00
+2026-03-16 08:44:36,712 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14285 profit=0.00
+2026-03-16 08:44:36,712 [INFO] risk_manager — Level closed: ticket=1610387476 profit=0.00
+2026-03-16 08:44:36,713 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14235 profit=0.00
+2026-03-16 08:44:36,713 [INFO] risk_manager — Level closed: ticket=1610387477 profit=0.00
+2026-03-16 08:44:36,714 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14435 profit=0.00
+2026-03-16 08:44:36,714 [INFO] risk_manager — Level closed: ticket=1610387484 profit=0.00
+2026-03-16 08:44:36,715 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14485 profit=0.00
+2026-03-16 08:44:36,715 [INFO] risk_manager — Level closed: ticket=1610387489 profit=0.00
+2026-03-16 08:44:36,716 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14535 profit=0.00
+2026-03-16 08:44:36,716 [INFO] risk_manager — Grid cleared
+2026-03-16 08:44:36,717 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:44:36,717 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:44:36,988 [INFO] risk_manager — Level filled: BUY @ 1.14335 ticket=1610387535
+2026-03-16 08:44:36,989 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14335 lot=0.01 TP=1.14375 SL=1.14035
+2026-03-16 08:44:37,253 [INFO] risk_manager — Level filled: BUY @ 1.14285 ticket=1610387543
+2026-03-16 08:44:37,255 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14285 lot=0.01 TP=1.14325 SL=1.13985
+2026-03-16 08:44:37,577 [INFO] risk_manager — Level filled: BUY @ 1.14235 ticket=1610387556
+2026-03-16 08:44:37,577 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14235 lot=0.01 TP=1.14275 SL=1.13935
+2026-03-16 08:44:37,835 [INFO] risk_manager — Level filled: SELL @ 1.14435 ticket=1610387563
+2026-03-16 08:44:37,835 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14435 lot=0.01 TP=1.14395 SL=1.14735
+2026-03-16 08:44:38,102 [INFO] risk_manager — Level filled: SELL @ 1.14485 ticket=1610387571
+2026-03-16 08:44:38,102 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14485 lot=0.01 TP=1.14445 SL=1.14785
+2026-03-16 08:44:38,372 [INFO] risk_manager — Level filled: SELL @ 1.14535 ticket=1610387580
+2026-03-16 08:44:38,373 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14535 lot=0.01 TP=1.14495 SL=1.14835
+2026-03-16 08:44:39,521 [INFO] risk_manager — Level closed: ticket=1610387535 profit=0.00
+2026-03-16 08:44:39,522 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14335 profit=0.00
+2026-03-16 08:44:39,522 [INFO] risk_manager — Level closed: ticket=1610387543 profit=0.00
+2026-03-16 08:44:39,523 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14285 profit=0.00
+2026-03-16 08:44:39,523 [INFO] risk_manager — Level closed: ticket=1610387556 profit=0.00
+2026-03-16 08:44:39,524 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14235 profit=0.00
+2026-03-16 08:44:39,525 [INFO] risk_manager — Level closed: ticket=1610387563 profit=0.00
+2026-03-16 08:44:39,526 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14435 profit=0.00
+2026-03-16 08:44:39,526 [INFO] risk_manager — Level closed: ticket=1610387571 profit=0.00
+2026-03-16 08:44:39,527 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14485 profit=0.00
+2026-03-16 08:44:39,528 [INFO] risk_manager — Level closed: ticket=1610387580 profit=0.00
+2026-03-16 08:44:39,528 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14535 profit=0.00
+2026-03-16 08:44:39,528 [INFO] risk_manager — Grid cleared
+2026-03-16 08:44:39,529 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:44:39,529 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:44:39,827 [INFO] risk_manager — Level filled: BUY @ 1.14335 ticket=1610387609
+2026-03-16 08:44:39,828 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14335 lot=0.01 TP=1.14375 SL=1.14035
+2026-03-16 08:44:40,117 [INFO] risk_manager — Level filled: BUY @ 1.14285 ticket=1610387616
+2026-03-16 08:44:40,118 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14285 lot=0.01 TP=1.14325 SL=1.13985
+2026-03-16 08:44:40,389 [INFO] risk_manager — Level filled: BUY @ 1.14235 ticket=1610387619
+2026-03-16 08:44:40,389 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14235 lot=0.01 TP=1.14275 SL=1.13935
+2026-03-16 08:44:40,676 [INFO] risk_manager — Level filled: SELL @ 1.14435 ticket=1610387625
+2026-03-16 08:44:40,677 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14435 lot=0.01 TP=1.14395 SL=1.14735
+2026-03-16 08:44:40,959 [INFO] risk_manager — Level filled: SELL @ 1.14485 ticket=1610387630
+2026-03-16 08:44:40,961 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14485 lot=0.01 TP=1.14445 SL=1.14785
+2026-03-16 08:44:41,237 [INFO] risk_manager — Level filled: SELL @ 1.14535 ticket=1610387634
+2026-03-16 08:44:41,238 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14535 lot=0.01 TP=1.14495 SL=1.14835
+2026-03-16 08:44:42,342 [INFO] risk_manager — Level closed: ticket=1610387609 profit=0.00
+2026-03-16 08:44:42,343 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14335 profit=0.00
+2026-03-16 08:44:42,343 [INFO] risk_manager — Level closed: ticket=1610387616 profit=0.00
+2026-03-16 08:44:42,344 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14285 profit=0.00
+2026-03-16 08:44:42,344 [INFO] risk_manager — Level closed: ticket=1610387619 profit=0.00
+2026-03-16 08:44:42,345 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14235 profit=0.00
+2026-03-16 08:44:42,345 [INFO] risk_manager — Level closed: ticket=1610387625 profit=0.00
+2026-03-16 08:44:42,346 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14435 profit=0.00
+2026-03-16 08:44:42,346 [INFO] risk_manager — Level closed: ticket=1610387630 profit=0.00
+2026-03-16 08:44:42,347 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14485 profit=0.00
+2026-03-16 08:44:42,347 [INFO] risk_manager — Level closed: ticket=1610387634 profit=0.00
+2026-03-16 08:44:42,348 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14535 profit=0.00
+2026-03-16 08:44:42,348 [INFO] risk_manager — Grid cleared
+2026-03-16 08:44:42,353 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:44:42,353 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:44:42,694 [INFO] risk_manager — Level filled: BUY @ 1.14335 ticket=1610387665
+2026-03-16 08:44:42,695 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14335 lot=0.01 TP=1.14375 SL=1.14035
+2026-03-16 08:44:42,965 [INFO] risk_manager — Level filled: BUY @ 1.14285 ticket=1610387667
+2026-03-16 08:44:42,966 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14285 lot=0.01 TP=1.14325 SL=1.13985
+2026-03-16 08:44:43,224 [INFO] risk_manager — Level filled: BUY @ 1.14235 ticket=1610387674
+2026-03-16 08:44:43,226 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14235 lot=0.01 TP=1.14275 SL=1.13935
+2026-03-16 08:44:43,496 [INFO] risk_manager — Level filled: SELL @ 1.14435 ticket=1610387679
+2026-03-16 08:44:43,496 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14435 lot=0.01 TP=1.14395 SL=1.14735
+2026-03-16 08:44:43,775 [INFO] risk_manager — Level filled: SELL @ 1.14485 ticket=1610387683
+2026-03-16 08:44:43,777 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14485 lot=0.01 TP=1.14445 SL=1.14785
+2026-03-16 08:44:44,110 [INFO] risk_manager — Level filled: SELL @ 1.14535 ticket=1610387684
+2026-03-16 08:44:44,111 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14535 lot=0.01 TP=1.14495 SL=1.14835
+2026-03-16 08:45:01,054 [INFO] risk_manager — Level closed: ticket=1610387665 profit=0.00
+2026-03-16 08:45:01,055 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14335 profit=0.00
+2026-03-16 08:45:01,055 [INFO] risk_manager — Level closed: ticket=1610387667 profit=0.00
+2026-03-16 08:45:01,056 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14285 profit=0.00
+2026-03-16 08:45:01,056 [INFO] risk_manager — Level closed: ticket=1610387674 profit=0.00
+2026-03-16 08:45:01,057 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14235 profit=0.00
+2026-03-16 08:45:01,057 [INFO] risk_manager — Level closed: ticket=1610387679 profit=0.00
+2026-03-16 08:45:01,058 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14435 profit=0.00
+2026-03-16 08:45:01,058 [INFO] risk_manager — Level closed: ticket=1610387683 profit=0.00
+2026-03-16 08:45:01,059 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14485 profit=0.00
+2026-03-16 08:45:01,059 [INFO] risk_manager — Level closed: ticket=1610387684 profit=0.00
+2026-03-16 08:45:01,060 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14535 profit=0.00
+2026-03-16 08:45:01,060 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:01,061 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:01,064 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:01,371 [INFO] risk_manager — Level filled: BUY @ 1.1433 ticket=1610388033
+2026-03-16 08:45:01,371 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14330 lot=0.01 TP=1.14370 SL=1.14030
+2026-03-16 08:45:01,646 [INFO] risk_manager — Level filled: BUY @ 1.1428 ticket=1610388045
+2026-03-16 08:45:01,647 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14280 lot=0.01 TP=1.14320 SL=1.13980
+2026-03-16 08:45:01,910 [INFO] risk_manager — Level filled: BUY @ 1.1423 ticket=1610388051
+2026-03-16 08:45:01,910 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14230 lot=0.01 TP=1.14270 SL=1.13930
+2026-03-16 08:45:02,187 [INFO] risk_manager — Level filled: SELL @ 1.1443 ticket=1610388059
+2026-03-16 08:45:02,189 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14430 lot=0.01 TP=1.14390 SL=1.14730
+2026-03-16 08:45:02,189 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:45:02,468 [INFO] risk_manager — Level filled: SELL @ 1.1448 ticket=1610388073
+2026-03-16 08:45:02,469 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14480 lot=0.01 TP=1.14440 SL=1.14780
+2026-03-16 08:45:02,746 [INFO] risk_manager — Level filled: SELL @ 1.1453 ticket=1610388079
+2026-03-16 08:45:02,747 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14530 lot=0.01 TP=1.14490 SL=1.14830
+2026-03-16 08:45:02,823 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:45:03,889 [INFO] risk_manager — Level closed: ticket=1610388033 profit=0.00
+2026-03-16 08:45:03,890 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14330 profit=0.00
+2026-03-16 08:45:03,891 [INFO] risk_manager — Level closed: ticket=1610388045 profit=0.00
+2026-03-16 08:45:03,891 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14280 profit=0.00
+2026-03-16 08:45:03,892 [INFO] risk_manager — Level closed: ticket=1610388051 profit=0.00
+2026-03-16 08:45:03,893 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14230 profit=0.00
+2026-03-16 08:45:03,893 [INFO] risk_manager — Level closed: ticket=1610388059 profit=0.00
+2026-03-16 08:45:03,896 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14430 profit=0.00
+2026-03-16 08:45:03,897 [INFO] risk_manager — Level closed: ticket=1610388073 profit=0.00
+2026-03-16 08:45:03,898 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14480 profit=0.00
+2026-03-16 08:45:03,899 [INFO] risk_manager — Level closed: ticket=1610388079 profit=0.00
+2026-03-16 08:45:03,899 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14530 profit=0.00
+2026-03-16 08:45:03,900 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:03,900 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:03,901 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:04,211 [INFO] risk_manager — Level filled: BUY @ 1.1433 ticket=1610388119
+2026-03-16 08:45:04,215 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14330 lot=0.01 TP=1.14370 SL=1.14030
+2026-03-16 08:45:04,488 [INFO] risk_manager — Level filled: BUY @ 1.1428 ticket=1610388125
+2026-03-16 08:45:04,489 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14280 lot=0.01 TP=1.14320 SL=1.13980
+2026-03-16 08:45:04,792 [INFO] risk_manager — Level filled: BUY @ 1.1423 ticket=1610388132
+2026-03-16 08:45:04,793 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14230 lot=0.01 TP=1.14270 SL=1.13930
+2026-03-16 08:45:05,070 [INFO] risk_manager — Level filled: SELL @ 1.1443 ticket=1610388144
+2026-03-16 08:45:05,071 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14430 lot=0.01 TP=1.14390 SL=1.14730
+2026-03-16 08:45:05,393 [INFO] risk_manager — Level filled: SELL @ 1.1448 ticket=1610388152
+2026-03-16 08:45:05,394 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14480 lot=0.01 TP=1.14440 SL=1.14780
+2026-03-16 08:45:05,754 [INFO] risk_manager — Level filled: SELL @ 1.1453 ticket=1610388158
+2026-03-16 08:45:05,755 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14530 lot=0.01 TP=1.14490 SL=1.14830
+2026-03-16 08:45:06,864 [INFO] risk_manager — Level closed: ticket=1610388119 profit=0.00
+2026-03-16 08:45:06,864 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14330 profit=0.00
+2026-03-16 08:45:06,865 [INFO] risk_manager — Level closed: ticket=1610388125 profit=0.00
+2026-03-16 08:45:06,865 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14280 profit=0.00
+2026-03-16 08:45:06,866 [INFO] risk_manager — Level closed: ticket=1610388132 profit=0.00
+2026-03-16 08:45:06,867 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14230 profit=0.00
+2026-03-16 08:45:06,867 [INFO] risk_manager — Level closed: ticket=1610388144 profit=0.00
+2026-03-16 08:45:06,868 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14430 profit=0.00
+2026-03-16 08:45:06,869 [INFO] risk_manager — Level closed: ticket=1610388152 profit=0.00
+2026-03-16 08:45:06,869 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14480 profit=0.00
+2026-03-16 08:45:06,870 [INFO] risk_manager — Level closed: ticket=1610388158 profit=0.00
+2026-03-16 08:45:06,871 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14530 profit=0.00
+2026-03-16 08:45:06,871 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:06,872 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:06,872 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:07,180 [INFO] risk_manager — Level filled: BUY @ 1.1433 ticket=1610388186
+2026-03-16 08:45:07,180 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14330 lot=0.01 TP=1.14370 SL=1.14030
+2026-03-16 08:45:07,508 [INFO] risk_manager — Level filled: BUY @ 1.1428 ticket=1610388192
+2026-03-16 08:45:07,509 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14280 lot=0.01 TP=1.14320 SL=1.13980
+2026-03-16 08:45:07,786 [INFO] risk_manager — Level filled: BUY @ 1.1423 ticket=1610388234
+2026-03-16 08:45:07,787 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14230 lot=0.01 TP=1.14270 SL=1.13930
+2026-03-16 08:45:08,065 [INFO] risk_manager — Level filled: SELL @ 1.1443 ticket=1610388260
+2026-03-16 08:45:08,066 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14430 lot=0.01 TP=1.14390 SL=1.14730
+2026-03-16 08:45:08,345 [INFO] risk_manager — Level filled: SELL @ 1.1448 ticket=1610388276
+2026-03-16 08:45:08,345 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14480 lot=0.01 TP=1.14440 SL=1.14780
+2026-03-16 08:45:08,661 [INFO] risk_manager — Level filled: SELL @ 1.1453 ticket=1610388288
+2026-03-16 08:45:08,662 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14530 lot=0.01 TP=1.14490 SL=1.14830
+2026-03-16 08:45:09,789 [INFO] risk_manager — Level closed: ticket=1610388186 profit=0.00
+2026-03-16 08:45:09,789 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14330 profit=0.00
+2026-03-16 08:45:09,790 [INFO] risk_manager — Level closed: ticket=1610388192 profit=0.00
+2026-03-16 08:45:09,790 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14280 profit=0.00
+2026-03-16 08:45:09,791 [INFO] risk_manager — Level closed: ticket=1610388234 profit=0.00
+2026-03-16 08:45:09,791 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14230 profit=0.00
+2026-03-16 08:45:09,793 [INFO] risk_manager — Level closed: ticket=1610388260 profit=0.00
+2026-03-16 08:45:09,795 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14430 profit=0.00
+2026-03-16 08:45:09,796 [INFO] risk_manager — Level closed: ticket=1610388276 profit=0.00
+2026-03-16 08:45:09,797 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14480 profit=0.00
+2026-03-16 08:45:09,798 [INFO] risk_manager — Level closed: ticket=1610388288 profit=0.00
+2026-03-16 08:45:09,798 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14530 profit=0.00
+2026-03-16 08:45:09,798 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:09,799 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:09,799 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:10,090 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610388377
+2026-03-16 08:45:10,092 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14360 SL=1.14020
+2026-03-16 08:45:10,364 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610388382
+2026-03-16 08:45:10,365 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14310 SL=1.13970
+2026-03-16 08:45:10,653 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610388393
+2026-03-16 08:45:10,654 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14260 SL=1.13920
+2026-03-16 08:45:10,920 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610388399
+2026-03-16 08:45:10,922 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14380 SL=1.14720
+2026-03-16 08:45:11,203 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610388404
+2026-03-16 08:45:11,204 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14430 SL=1.14770
+2026-03-16 08:45:11,480 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610388420
+2026-03-16 08:45:11,483 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14480 SL=1.14820
+2026-03-16 08:45:12,656 [INFO] risk_manager — Level closed: ticket=1610388377 profit=0.00
+2026-03-16 08:45:12,656 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:45:12,657 [INFO] risk_manager — Level closed: ticket=1610388382 profit=0.00
+2026-03-16 08:45:12,657 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:45:12,660 [INFO] risk_manager — Level closed: ticket=1610388393 profit=0.00
+2026-03-16 08:45:12,660 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:45:12,661 [INFO] risk_manager — Level closed: ticket=1610388399 profit=0.00
+2026-03-16 08:45:12,661 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:45:12,662 [INFO] risk_manager — Level closed: ticket=1610388404 profit=0.00
+2026-03-16 08:45:12,663 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:45:12,663 [INFO] risk_manager — Level closed: ticket=1610388420 profit=0.00
+2026-03-16 08:45:12,664 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:45:12,664 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:12,664 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:12,665 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:12,932 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610388460
+2026-03-16 08:45:12,933 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14361 SL=1.14021
+2026-03-16 08:45:13,193 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610388468
+2026-03-16 08:45:13,193 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14311 SL=1.13971
+2026-03-16 08:45:13,463 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610388475
+2026-03-16 08:45:13,463 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14261 SL=1.13921
+2026-03-16 08:45:13,743 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610388480
+2026-03-16 08:45:13,745 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14381 SL=1.14721
+2026-03-16 08:45:14,044 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610388486
+2026-03-16 08:45:14,045 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14431 SL=1.14771
+2026-03-16 08:45:14,314 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610388501
+2026-03-16 08:45:14,315 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14481 SL=1.14821
+2026-03-16 08:45:15,447 [INFO] risk_manager — Level closed: ticket=1610388460 profit=0.00
+2026-03-16 08:45:15,447 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:45:15,448 [INFO] risk_manager — Level closed: ticket=1610388468 profit=0.00
+2026-03-16 08:45:15,448 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:45:15,449 [INFO] risk_manager — Level closed: ticket=1610388475 profit=0.00
+2026-03-16 08:45:15,449 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:45:15,450 [INFO] risk_manager — Level closed: ticket=1610388480 profit=0.00
+2026-03-16 08:45:15,450 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:45:15,451 [INFO] risk_manager — Level closed: ticket=1610388486 profit=0.00
+2026-03-16 08:45:15,451 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:45:15,452 [INFO] risk_manager — Level closed: ticket=1610388501 profit=0.00
+2026-03-16 08:45:15,452 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:45:15,453 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:15,454 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:15,455 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:15,777 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610388532
+2026-03-16 08:45:15,778 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14361 SL=1.14021
+2026-03-16 08:45:16,060 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610388536
+2026-03-16 08:45:16,061 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14311 SL=1.13971
+2026-03-16 08:45:16,364 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610388541
+2026-03-16 08:45:16,365 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14261 SL=1.13921
+2026-03-16 08:45:16,633 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610388543
+2026-03-16 08:45:16,633 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14381 SL=1.14721
+2026-03-16 08:45:16,887 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610388549
+2026-03-16 08:45:16,887 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14431 SL=1.14771
+2026-03-16 08:45:17,145 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610388555
+2026-03-16 08:45:17,145 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14481 SL=1.14821
+2026-03-16 08:45:18,281 [INFO] risk_manager — Level closed: ticket=1610388532 profit=0.00
+2026-03-16 08:45:18,281 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:45:18,282 [INFO] risk_manager — Level closed: ticket=1610388536 profit=0.00
+2026-03-16 08:45:18,283 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:45:18,283 [INFO] risk_manager — Level closed: ticket=1610388541 profit=0.00
+2026-03-16 08:45:18,284 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:45:18,284 [INFO] risk_manager — Level closed: ticket=1610388543 profit=0.00
+2026-03-16 08:45:18,285 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:45:18,285 [INFO] risk_manager — Level closed: ticket=1610388549 profit=0.00
+2026-03-16 08:45:18,286 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:45:18,286 [INFO] risk_manager — Level closed: ticket=1610388555 profit=0.00
+2026-03-16 08:45:18,287 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:45:18,287 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:18,288 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:18,288 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:18,558 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610388577
+2026-03-16 08:45:18,559 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14361 SL=1.14021
+2026-03-16 08:45:18,835 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610388587
+2026-03-16 08:45:18,836 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14311 SL=1.13971
+2026-03-16 08:45:19,437 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610388599
+2026-03-16 08:45:19,437 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14261 SL=1.13921
+2026-03-16 08:45:19,720 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610388601
+2026-03-16 08:45:19,720 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14381 SL=1.14721
+2026-03-16 08:45:19,988 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610388607
+2026-03-16 08:45:19,988 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14431 SL=1.14771
+2026-03-16 08:45:20,268 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610388615
+2026-03-16 08:45:20,269 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14481 SL=1.14821
+2026-03-16 08:45:21,438 [INFO] risk_manager — Level closed: ticket=1610388577 profit=0.00
+2026-03-16 08:45:21,441 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:45:21,442 [INFO] risk_manager — Level closed: ticket=1610388587 profit=0.00
+2026-03-16 08:45:21,442 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:45:21,443 [INFO] risk_manager — Level closed: ticket=1610388599 profit=0.00
+2026-03-16 08:45:21,444 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:45:21,444 [INFO] risk_manager — Level closed: ticket=1610388601 profit=0.00
+2026-03-16 08:45:21,445 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:45:21,447 [INFO] risk_manager — Level closed: ticket=1610388607 profit=0.00
+2026-03-16 08:45:21,448 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:45:21,449 [INFO] risk_manager — Level closed: ticket=1610388615 profit=0.00
+2026-03-16 08:45:21,449 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:45:21,449 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:21,450 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:21,450 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:21,744 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610388719
+2026-03-16 08:45:21,745 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14361 SL=1.14021
+2026-03-16 08:45:22,058 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610388728
+2026-03-16 08:45:22,060 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14311 SL=1.13971
+2026-03-16 08:45:22,346 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610388783
+2026-03-16 08:45:22,347 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14261 SL=1.13921
+2026-03-16 08:45:22,610 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610388798
+2026-03-16 08:45:22,612 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14381 SL=1.14721
+2026-03-16 08:45:22,882 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610388814
+2026-03-16 08:45:22,884 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14431 SL=1.14771
+2026-03-16 08:45:23,224 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610388831
+2026-03-16 08:45:23,224 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14481 SL=1.14821
+2026-03-16 08:45:24,339 [INFO] risk_manager — Level closed: ticket=1610388719 profit=0.00
+2026-03-16 08:45:24,340 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:45:24,341 [INFO] risk_manager — Level closed: ticket=1610388728 profit=0.00
+2026-03-16 08:45:24,341 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:45:24,342 [INFO] risk_manager — Level closed: ticket=1610388783 profit=0.00
+2026-03-16 08:45:24,342 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:45:24,343 [INFO] risk_manager — Level closed: ticket=1610388798 profit=0.00
+2026-03-16 08:45:24,343 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:45:24,344 [INFO] risk_manager — Level closed: ticket=1610388814 profit=0.00
+2026-03-16 08:45:24,344 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:45:24,345 [INFO] risk_manager — Level closed: ticket=1610388831 profit=0.00
+2026-03-16 08:45:24,345 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:45:24,346 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:24,346 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:24,346 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:24,626 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610388907
+2026-03-16 08:45:24,627 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14361 SL=1.14021
+2026-03-16 08:45:25,046 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610388928
+2026-03-16 08:45:25,048 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14311 SL=1.13971
+2026-03-16 08:45:25,499 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610388957
+2026-03-16 08:45:25,499 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14261 SL=1.13921
+2026-03-16 08:45:25,907 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610388979
+2026-03-16 08:45:25,908 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14381 SL=1.14721
+2026-03-16 08:45:26,261 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610388987
+2026-03-16 08:45:26,262 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14431 SL=1.14771
+2026-03-16 08:45:26,543 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610388996
+2026-03-16 08:45:26,544 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14481 SL=1.14821
+2026-03-16 08:45:27,716 [INFO] risk_manager — Level closed: ticket=1610388907 profit=0.00
+2026-03-16 08:45:27,717 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:45:27,717 [INFO] risk_manager — Level closed: ticket=1610388928 profit=0.00
+2026-03-16 08:45:27,717 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:45:27,718 [INFO] risk_manager — Level closed: ticket=1610388957 profit=0.00
+2026-03-16 08:45:27,719 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:45:27,720 [INFO] risk_manager — Level closed: ticket=1610388979 profit=0.00
+2026-03-16 08:45:27,721 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:45:27,722 [INFO] risk_manager — Level closed: ticket=1610388987 profit=0.00
+2026-03-16 08:45:27,722 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:45:27,723 [INFO] risk_manager — Level closed: ticket=1610388996 profit=0.00
+2026-03-16 08:45:27,724 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:45:27,724 [INFO] risk_manager — Grid cleared
+2026-03-16 08:45:27,724 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:45:27,725 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:45:28,030 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610389026
+2026-03-16 08:45:28,031 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14361 SL=1.14021
+2026-03-16 08:45:28,305 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610389034
+2026-03-16 08:45:28,306 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14311 SL=1.13971
+2026-03-16 08:45:28,694 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610389044
+2026-03-16 08:45:28,696 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14261 SL=1.13921
+2026-03-16 08:45:29,098 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610389053
+2026-03-16 08:45:29,098 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14381 SL=1.14721
+2026-03-16 08:45:29,382 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610389060
+2026-03-16 08:45:29,383 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14431 SL=1.14771
+2026-03-16 08:45:29,756 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610389066
+2026-03-16 08:45:29,757 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14481 SL=1.14821
+2026-03-16 08:45:48,200 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:45:48,809 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:45:56,320 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:46:03,101 [INFO] risk_manager — Level closed: ticket=1610389026 profit=0.00
+2026-03-16 08:46:03,102 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:46:03,105 [INFO] risk_manager — Level closed: ticket=1610389034 profit=0.00
+2026-03-16 08:46:03,106 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:46:03,107 [INFO] risk_manager — Level closed: ticket=1610389044 profit=0.00
+2026-03-16 08:46:03,108 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:46:03,113 [INFO] risk_manager — Level closed: ticket=1610389053 profit=0.00
+2026-03-16 08:46:03,119 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:46:03,123 [INFO] risk_manager — Level closed: ticket=1610389060 profit=0.00
+2026-03-16 08:46:03,130 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:46:03,135 [INFO] risk_manager — Level closed: ticket=1610389066 profit=0.00
+2026-03-16 08:46:03,136 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:46:03,137 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:03,155 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:03,165 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:03,468 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610389903
+2026-03-16 08:46:03,471 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14360 SL=1.14020
+2026-03-16 08:46:03,790 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610389910
+2026-03-16 08:46:03,791 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14310 SL=1.13970
+2026-03-16 08:46:04,094 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610389918
+2026-03-16 08:46:04,106 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14260 SL=1.13920
+2026-03-16 08:46:04,413 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610389923
+2026-03-16 08:46:04,415 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14380 SL=1.14720
+2026-03-16 08:46:04,687 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610389931
+2026-03-16 08:46:04,689 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14430 SL=1.14770
+2026-03-16 08:46:04,962 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610389937
+2026-03-16 08:46:04,964 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14480 SL=1.14820
+2026-03-16 08:46:06,750 [INFO] risk_manager — Level closed: ticket=1610389903 profit=0.00
+2026-03-16 08:46:06,751 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:06,752 [INFO] risk_manager — Level closed: ticket=1610389910 profit=0.00
+2026-03-16 08:46:06,754 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:06,757 [INFO] risk_manager — Level closed: ticket=1610389918 profit=0.00
+2026-03-16 08:46:06,759 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:06,763 [INFO] risk_manager — Level closed: ticket=1610389923 profit=0.00
+2026-03-16 08:46:06,768 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:06,772 [INFO] risk_manager — Level closed: ticket=1610389931 profit=0.00
+2026-03-16 08:46:06,778 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:06,785 [INFO] risk_manager — Level closed: ticket=1610389937 profit=0.00
+2026-03-16 08:46:06,787 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:06,801 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:06,811 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:06,819 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:07,124 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610389984
+2026-03-16 08:46:07,125 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14360 SL=1.14020
+2026-03-16 08:46:07,422 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610389992
+2026-03-16 08:46:07,480 [ERROR] mt5_connector — MT5 init failed: (-2, 'Terminal: Invalid params')
+2026-03-16 08:46:07,480 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14310 SL=1.13970
+2026-03-16 08:46:07,486 [INFO] bot_engine — [ERROR] Order failed: Symbol not found: EURUSD
+2026-03-16 08:46:07,487 [INFO] bot_engine — [ERROR] Order failed: Symbol not found: EURUSD
+2026-03-16 08:46:07,498 [INFO] bot_engine — [ERROR] Order failed: Symbol not found: EURUSD
+2026-03-16 08:46:07,501 [INFO] bot_engine — [ERROR] Order failed: Symbol not found: EURUSD
+2026-03-16 08:46:16,125 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 270.94
+2026-03-16 08:46:16,481 [INFO] ml_engine — Model loaded from disk
+2026-03-16 08:46:16,508 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 08:46:16,508 [INFO] bot_engine — [INFO] Bot started
+2026-03-16 08:46:16,519 [INFO] bot_engine — Bot engine started
+2026-03-16 08:46:16,551 [INFO] risk_manager — New trading day — start balance: 270.94
+2026-03-16 08:46:16,745 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 08:46:17,290 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:17,291 [INFO] bot_engine — [INFO] Grid built: NEUTRAL | 6 levels | confidence=56.7%
+2026-03-16 08:46:17,617 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610390297
+2026-03-16 08:46:17,618 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:46:17,911 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610390301
+2026-03-16 08:46:17,942 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:46:18,230 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610390306
+2026-03-16 08:46:18,231 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:46:18,505 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610390314
+2026-03-16 08:46:18,506 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:46:18,772 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610390317
+2026-03-16 08:46:18,776 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 08:46:18,777 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:46:19,048 [INFO] ml_engine — Label distribution: {0: 2612, -1: 1272, 1: 1097}
+2026-03-16 08:46:19,049 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610390318
+2026-03-16 08:46:19,053 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:46:20,143 [ERROR] bot_engine — Tick error: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 106, in _loop
+    self._tick()
+    ~~~~~~~~~~^^
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\bot_engine.py", line 153, in _tick
+    signal_data = self.ml.predict(df)
+  File "C:\Users\James\Downloads\grid_ml_scalper_bot\grid_ml_bot\ml_engine.py", line 285, in predict
+    proba    = self.model.predict_proba(X_scaled)[0]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\James\AppData\Roaming\Python\Python314\site-packages\sklearn\ensemble\_forest.py", line 632, in _validate_X_predict
+    if self.estimators_[0]._support_missing_values(X):
+       ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2026-03-16 08:46:20,247 [INFO] bot_engine — [ERROR] list index out of range
+2026-03-16 08:46:21,038 [INFO] ml_engine — Model saved
+2026-03-16 08:46:21,039 [INFO] ml_engine — Training done — accuracy: 58.4%
+2026-03-16 08:46:21,042 [INFO] bot_engine — [INFO] Retrain done — accuracy=58.4% | n_features=37
+2026-03-16 08:46:21,199 [INFO] risk_manager — Level closed: ticket=1610390297 profit=0.00
+2026-03-16 08:46:21,199 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:46:21,200 [INFO] risk_manager — Level closed: ticket=1610390301 profit=0.00
+2026-03-16 08:46:21,200 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:46:21,201 [INFO] risk_manager — Level closed: ticket=1610390306 profit=0.00
+2026-03-16 08:46:21,202 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:46:21,203 [INFO] risk_manager — Level closed: ticket=1610390314 profit=0.00
+2026-03-16 08:46:21,203 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:46:21,204 [INFO] risk_manager — Level closed: ticket=1610390317 profit=0.00
+2026-03-16 08:46:21,204 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:46:21,205 [INFO] risk_manager — Level closed: ticket=1610390318 profit=0.00
+2026-03-16 08:46:21,206 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:46:21,206 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:21,207 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:21,207 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:21,493 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610390356
+2026-03-16 08:46:21,508 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:46:21,808 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610390366
+2026-03-16 08:46:21,837 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:46:22,117 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610390375
+2026-03-16 08:46:22,120 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:46:22,408 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610390392
+2026-03-16 08:46:22,408 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:46:22,860 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610390401
+2026-03-16 08:46:22,861 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:46:23,146 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610390411
+2026-03-16 08:46:23,147 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:46:23,235 [INFO] risk_manager — Level closed: ticket=1610390356 profit=0.00
+2026-03-16 08:46:23,236 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:23,236 [INFO] risk_manager — Level closed: ticket=1610390366 profit=0.00
+2026-03-16 08:46:23,237 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:23,238 [INFO] risk_manager — Level closed: ticket=1610390375 profit=0.00
+2026-03-16 08:46:23,238 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:23,239 [INFO] risk_manager — Level closed: ticket=1610390392 profit=0.00
+2026-03-16 08:46:23,240 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:23,240 [INFO] risk_manager — Level closed: ticket=1610390401 profit=0.00
+2026-03-16 08:46:23,241 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:23,242 [INFO] risk_manager — Level closed: ticket=1610390411 profit=0.00
+2026-03-16 08:46:23,242 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:23,242 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:23,243 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:23,243 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:23,562 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610390416
+2026-03-16 08:46:23,563 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:46:23,858 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610390420
+2026-03-16 08:46:23,858 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:46:24,219 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610390429
+2026-03-16 08:46:24,231 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:46:24,694 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610390435
+2026-03-16 08:46:24,697 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:46:25,108 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610390440
+2026-03-16 08:46:25,129 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:46:25,437 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610390452
+2026-03-16 08:46:25,440 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:46:25,595 [INFO] risk_manager — Level closed: ticket=1610390416 profit=0.00
+2026-03-16 08:46:25,596 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:25,597 [INFO] risk_manager — Level closed: ticket=1610390420 profit=0.00
+2026-03-16 08:46:25,598 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:25,599 [INFO] risk_manager — Level closed: ticket=1610390429 profit=0.00
+2026-03-16 08:46:25,601 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:25,603 [INFO] risk_manager — Level closed: ticket=1610390435 profit=0.00
+2026-03-16 08:46:25,603 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:25,604 [INFO] risk_manager — Level closed: ticket=1610390440 profit=0.00
+2026-03-16 08:46:25,604 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:25,605 [INFO] risk_manager — Level closed: ticket=1610390452 profit=0.00
+2026-03-16 08:46:25,606 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:25,606 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:25,607 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:25,607 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:25,954 [INFO] risk_manager — Level filled: BUY @ 1.14322 ticket=1610390462
+2026-03-16 08:46:25,959 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14322 lot=0.01 TP=1.14722 SL=1.14222
+2026-03-16 08:46:26,271 [INFO] risk_manager — Level filled: BUY @ 1.14272 ticket=1610390472
+2026-03-16 08:46:26,272 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14272 lot=0.01 TP=1.14672 SL=1.14172
+2026-03-16 08:46:26,609 [INFO] risk_manager — Level filled: BUY @ 1.14222 ticket=1610390481
+2026-03-16 08:46:26,627 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14222 lot=0.01 TP=1.14622 SL=1.14122
+2026-03-16 08:46:27,291 [INFO] risk_manager — Level filled: SELL @ 1.14422 ticket=1610390507
+2026-03-16 08:46:27,308 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14422 lot=0.01 TP=1.14022 SL=1.14522
+2026-03-16 08:46:27,660 [INFO] risk_manager — Level filled: SELL @ 1.14472 ticket=1610390515
+2026-03-16 08:46:27,668 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14472 lot=0.01 TP=1.14072 SL=1.14572
+2026-03-16 08:46:28,064 [INFO] risk_manager — Level filled: SELL @ 1.14522 ticket=1610390537
+2026-03-16 08:46:28,067 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14522 lot=0.01 TP=1.14122 SL=1.14622
+2026-03-16 08:46:28,188 [INFO] risk_manager — Level closed: ticket=1610390462 profit=0.00
+2026-03-16 08:46:28,189 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14322 profit=0.00
+2026-03-16 08:46:28,190 [INFO] risk_manager — Level closed: ticket=1610390472 profit=0.00
+2026-03-16 08:46:28,191 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14272 profit=0.00
+2026-03-16 08:46:28,192 [INFO] risk_manager — Level closed: ticket=1610390481 profit=0.00
+2026-03-16 08:46:28,192 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14222 profit=0.00
+2026-03-16 08:46:28,194 [INFO] risk_manager — Level closed: ticket=1610390507 profit=0.00
+2026-03-16 08:46:28,195 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14422 profit=0.00
+2026-03-16 08:46:28,197 [INFO] risk_manager — Level closed: ticket=1610390515 profit=0.00
+2026-03-16 08:46:28,197 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14472 profit=0.00
+2026-03-16 08:46:28,200 [INFO] risk_manager — Level closed: ticket=1610390537 profit=0.00
+2026-03-16 08:46:28,201 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14522 profit=0.00
+2026-03-16 08:46:28,202 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:28,203 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:28,203 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:28,551 [INFO] risk_manager — Level filled: BUY @ 1.14322 ticket=1610390549
+2026-03-16 08:46:28,554 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14322 lot=0.01 TP=1.14722 SL=1.14222
+2026-03-16 08:46:28,855 [INFO] risk_manager — Level filled: BUY @ 1.14272 ticket=1610390558
+2026-03-16 08:46:28,855 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14272 lot=0.01 TP=1.14672 SL=1.14172
+2026-03-16 08:46:29,130 [INFO] risk_manager — Level filled: BUY @ 1.14222 ticket=1610390568
+2026-03-16 08:46:29,142 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14222 lot=0.01 TP=1.14622 SL=1.14122
+2026-03-16 08:46:29,471 [INFO] risk_manager — Level filled: SELL @ 1.14422 ticket=1610390574
+2026-03-16 08:46:29,479 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14422 lot=0.01 TP=1.14022 SL=1.14522
+2026-03-16 08:46:29,806 [INFO] risk_manager — Level filled: SELL @ 1.14472 ticket=1610390608
+2026-03-16 08:46:29,817 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14472 lot=0.01 TP=1.14072 SL=1.14572
+2026-03-16 08:46:30,280 [INFO] risk_manager — Level filled: SELL @ 1.14522 ticket=1610390613
+2026-03-16 08:46:30,284 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14522 lot=0.01 TP=1.14122 SL=1.14622
+2026-03-16 08:46:30,404 [INFO] risk_manager — Level closed: ticket=1610390549 profit=0.00
+2026-03-16 08:46:30,405 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14322 profit=0.00
+2026-03-16 08:46:30,406 [INFO] risk_manager — Level closed: ticket=1610390558 profit=0.00
+2026-03-16 08:46:30,406 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14272 profit=0.00
+2026-03-16 08:46:30,407 [INFO] risk_manager — Level closed: ticket=1610390568 profit=0.00
+2026-03-16 08:46:30,408 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14222 profit=0.00
+2026-03-16 08:46:30,408 [INFO] risk_manager — Level closed: ticket=1610390574 profit=0.00
+2026-03-16 08:46:30,409 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14422 profit=0.00
+2026-03-16 08:46:30,410 [INFO] risk_manager — Level closed: ticket=1610390608 profit=0.00
+2026-03-16 08:46:30,410 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14472 profit=0.00
+2026-03-16 08:46:30,411 [INFO] risk_manager — Level closed: ticket=1610390613 profit=0.00
+2026-03-16 08:46:30,412 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14522 profit=0.00
+2026-03-16 08:46:30,412 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:30,413 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:30,413 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:30,713 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610390642
+2026-03-16 08:46:30,713 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:46:31,021 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610390648
+2026-03-16 08:46:31,022 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:46:31,318 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610390681
+2026-03-16 08:46:31,321 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:46:31,624 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610390719
+2026-03-16 08:46:31,627 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:46:31,907 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610390741
+2026-03-16 08:46:31,910 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:46:32,186 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610390751
+2026-03-16 08:46:32,195 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:46:32,292 [INFO] risk_manager — Level closed: ticket=1610390642 profit=0.00
+2026-03-16 08:46:32,293 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:46:32,293 [INFO] risk_manager — Level closed: ticket=1610390648 profit=0.00
+2026-03-16 08:46:32,294 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:46:32,294 [INFO] risk_manager — Level closed: ticket=1610390681 profit=0.00
+2026-03-16 08:46:32,295 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:46:32,295 [INFO] risk_manager — Level closed: ticket=1610390719 profit=0.00
+2026-03-16 08:46:32,296 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:46:32,296 [INFO] risk_manager — Level closed: ticket=1610390741 profit=0.00
+2026-03-16 08:46:32,297 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:46:32,298 [INFO] risk_manager — Level closed: ticket=1610390751 profit=0.00
+2026-03-16 08:46:32,299 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:46:32,300 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:32,300 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:32,301 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:32,583 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610390756
+2026-03-16 08:46:32,584 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:46:32,926 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610390761
+2026-03-16 08:46:32,926 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:46:33,265 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610390764
+2026-03-16 08:46:33,283 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:46:33,592 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610390771
+2026-03-16 08:46:33,595 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:46:33,895 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610390773
+2026-03-16 08:46:33,896 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:46:34,253 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610390775
+2026-03-16 08:46:34,255 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:46:34,254 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:46:34,370 [INFO] risk_manager — Level closed: ticket=1610390756 profit=0.00
+2026-03-16 08:46:34,370 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:46:34,371 [INFO] risk_manager — Level closed: ticket=1610390761 profit=0.00
+2026-03-16 08:46:34,372 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:46:34,374 [INFO] risk_manager — Level closed: ticket=1610390764 profit=0.00
+2026-03-16 08:46:34,376 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:46:34,377 [INFO] risk_manager — Level closed: ticket=1610390771 profit=0.00
+2026-03-16 08:46:34,378 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:46:34,379 [INFO] risk_manager — Level closed: ticket=1610390773 profit=0.00
+2026-03-16 08:46:34,381 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:46:34,383 [INFO] risk_manager — Level closed: ticket=1610390775 profit=0.00
+2026-03-16 08:46:34,384 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:46:34,385 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:34,386 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:34,386 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:34,808 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610390784
+2026-03-16 08:46:34,810 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:46:35,101 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610390788
+2026-03-16 08:46:35,101 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:46:35,422 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610390814
+2026-03-16 08:46:35,435 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:46:35,714 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610390830
+2026-03-16 08:46:35,745 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:46:36,038 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610390849
+2026-03-16 08:46:36,048 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:46:36,461 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610390864
+2026-03-16 08:46:36,464 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:46:36,560 [INFO] risk_manager — Level closed: ticket=1610390784 profit=0.00
+2026-03-16 08:46:36,561 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:36,561 [INFO] risk_manager — Level closed: ticket=1610390788 profit=0.00
+2026-03-16 08:46:36,562 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:36,563 [INFO] risk_manager — Level closed: ticket=1610390814 profit=0.00
+2026-03-16 08:46:36,565 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:36,565 [INFO] risk_manager — Level closed: ticket=1610390830 profit=0.00
+2026-03-16 08:46:36,566 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:36,567 [INFO] risk_manager — Level closed: ticket=1610390849 profit=0.00
+2026-03-16 08:46:36,567 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:36,568 [INFO] risk_manager — Level closed: ticket=1610390864 profit=0.00
+2026-03-16 08:46:36,568 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:36,569 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:36,569 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:36,569 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:36,835 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610390877
+2026-03-16 08:46:36,836 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:46:37,105 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610390896
+2026-03-16 08:46:37,107 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:46:37,410 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610390901
+2026-03-16 08:46:37,411 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:46:37,693 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610390906
+2026-03-16 08:46:37,711 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:46:38,016 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610390909
+2026-03-16 08:46:38,018 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:46:38,309 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610390913
+2026-03-16 08:46:38,315 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:46:38,499 [INFO] risk_manager — Level closed: ticket=1610390877 profit=0.00
+2026-03-16 08:46:38,500 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:38,501 [INFO] risk_manager — Level closed: ticket=1610390896 profit=0.00
+2026-03-16 08:46:38,501 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:38,502 [INFO] risk_manager — Level closed: ticket=1610390901 profit=0.00
+2026-03-16 08:46:38,503 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:38,504 [INFO] risk_manager — Level closed: ticket=1610390906 profit=0.00
+2026-03-16 08:46:38,504 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:38,506 [INFO] risk_manager — Level closed: ticket=1610390909 profit=0.00
+2026-03-16 08:46:38,509 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:38,511 [INFO] risk_manager — Level closed: ticket=1610390913 profit=0.00
+2026-03-16 08:46:38,516 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:38,520 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:38,523 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:38,527 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:38,802 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610390916
+2026-03-16 08:46:38,807 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:46:39,102 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610390922
+2026-03-16 08:46:39,104 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:46:39,380 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610390927
+2026-03-16 08:46:39,400 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:46:39,755 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610390931
+2026-03-16 08:46:39,763 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:46:40,031 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610390934
+2026-03-16 08:46:40,035 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:46:40,301 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610390936
+2026-03-16 08:46:40,305 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:46:40,511 [INFO] risk_manager — Level closed: ticket=1610390916 profit=0.00
+2026-03-16 08:46:40,515 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:40,517 [INFO] risk_manager — Level closed: ticket=1610390922 profit=0.00
+2026-03-16 08:46:40,517 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:40,518 [INFO] risk_manager — Level closed: ticket=1610390927 profit=0.00
+2026-03-16 08:46:40,519 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:40,520 [INFO] risk_manager — Level closed: ticket=1610390931 profit=0.00
+2026-03-16 08:46:40,523 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:40,524 [INFO] risk_manager — Level closed: ticket=1610390934 profit=0.00
+2026-03-16 08:46:40,525 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:40,526 [INFO] risk_manager — Level closed: ticket=1610390936 profit=0.00
+2026-03-16 08:46:40,537 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:40,538 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:40,538 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:40,539 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:40,814 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610390951
+2026-03-16 08:46:40,818 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:46:41,101 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610390955
+2026-03-16 08:46:41,101 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:46:41,371 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610390959
+2026-03-16 08:46:41,375 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:46:41,703 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610390963
+2026-03-16 08:46:41,706 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:46:42,015 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610390972
+2026-03-16 08:46:42,016 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:46:42,022 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:46:42,309 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610390979
+2026-03-16 08:46:42,314 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:46:42,441 [INFO] risk_manager — Level closed: ticket=1610390951 profit=0.00
+2026-03-16 08:46:42,442 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:42,443 [INFO] risk_manager — Level closed: ticket=1610390955 profit=0.00
+2026-03-16 08:46:42,446 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:42,449 [INFO] risk_manager — Level closed: ticket=1610390959 profit=0.00
+2026-03-16 08:46:42,454 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:42,457 [INFO] risk_manager — Level closed: ticket=1610390963 profit=0.00
+2026-03-16 08:46:42,459 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:42,460 [INFO] risk_manager — Level closed: ticket=1610390972 profit=0.00
+2026-03-16 08:46:42,460 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:42,464 [INFO] risk_manager — Level closed: ticket=1610390979 profit=0.00
+2026-03-16 08:46:42,472 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:42,473 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:42,473 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:42,473 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:42,729 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610390983
+2026-03-16 08:46:42,736 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:46:43,018 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610390987
+2026-03-16 08:46:43,019 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:46:43,284 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610390992
+2026-03-16 08:46:43,285 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:46:43,538 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610390994
+2026-03-16 08:46:43,548 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:46:43,831 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610390997
+2026-03-16 08:46:43,849 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:46:43,850 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:46:44,150 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391000
+2026-03-16 08:46:44,166 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:46:44,419 [INFO] risk_manager — Level closed: ticket=1610390983 profit=0.00
+2026-03-16 08:46:44,421 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:44,422 [INFO] risk_manager — Level closed: ticket=1610390987 profit=0.00
+2026-03-16 08:46:44,423 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:44,424 [INFO] risk_manager — Level closed: ticket=1610390992 profit=0.00
+2026-03-16 08:46:44,438 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:44,439 [INFO] risk_manager — Level closed: ticket=1610390994 profit=0.00
+2026-03-16 08:46:44,441 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:44,450 [INFO] risk_manager — Level closed: ticket=1610390997 profit=0.00
+2026-03-16 08:46:44,451 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:44,452 [INFO] risk_manager — Level closed: ticket=1610391000 profit=0.00
+2026-03-16 08:46:44,453 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:44,453 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:44,484 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:44,487 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:44,765 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610391005
+2026-03-16 08:46:44,767 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:46:45,129 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610391009
+2026-03-16 08:46:45,129 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:46:45,455 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610391021
+2026-03-16 08:46:45,473 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:46:45,889 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610391028
+2026-03-16 08:46:45,892 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:46:46,167 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610391036
+2026-03-16 08:46:46,179 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:46:46,502 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391042
+2026-03-16 08:46:46,503 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:46:46,631 [INFO] risk_manager — Level closed: ticket=1610391005 profit=0.00
+2026-03-16 08:46:46,632 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:46:46,632 [INFO] risk_manager — Level closed: ticket=1610391009 profit=0.00
+2026-03-16 08:46:46,633 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:46:46,633 [INFO] risk_manager — Level closed: ticket=1610391021 profit=0.00
+2026-03-16 08:46:46,633 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:46:46,634 [INFO] risk_manager — Level closed: ticket=1610391028 profit=0.00
+2026-03-16 08:46:46,634 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:46:46,634 [INFO] risk_manager — Level closed: ticket=1610391036 profit=0.00
+2026-03-16 08:46:46,635 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:46:46,637 [INFO] risk_manager — Level closed: ticket=1610391042 profit=0.00
+2026-03-16 08:46:46,637 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:46:46,637 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:46,638 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:46,638 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:46,914 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610391049
+2026-03-16 08:46:46,914 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:46:47,184 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610391055
+2026-03-16 08:46:47,185 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:46:47,495 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610391064
+2026-03-16 08:46:47,496 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:46:47,776 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610391072
+2026-03-16 08:46:47,796 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:46:48,187 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610391073
+2026-03-16 08:46:48,191 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:46:48,470 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610391080
+2026-03-16 08:46:48,477 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:46:59,580 [INFO] risk_manager — Level closed: ticket=1610391049 profit=0.00
+2026-03-16 08:46:59,580 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:46:59,581 [INFO] risk_manager — Level closed: ticket=1610391055 profit=0.00
+2026-03-16 08:46:59,581 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:46:59,582 [INFO] risk_manager — Level closed: ticket=1610391064 profit=0.00
+2026-03-16 08:46:59,582 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:46:59,583 [INFO] risk_manager — Level closed: ticket=1610391072 profit=0.00
+2026-03-16 08:46:59,583 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:46:59,584 [INFO] risk_manager — Level closed: ticket=1610391073 profit=0.00
+2026-03-16 08:46:59,584 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:46:59,585 [INFO] risk_manager — Level closed: ticket=1610391080 profit=0.00
+2026-03-16 08:46:59,586 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:46:59,586 [INFO] risk_manager — Grid cleared
+2026-03-16 08:46:59,587 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:46:59,602 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:46:59,975 [INFO] risk_manager — Level filled: BUY @ 1.14319 ticket=1610391196
+2026-03-16 08:46:59,975 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14319 lot=0.01 TP=1.14719 SL=1.14219
+2026-03-16 08:47:00,259 [INFO] risk_manager — Level filled: BUY @ 1.14269 ticket=1610391202
+2026-03-16 08:47:00,259 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14269 lot=0.01 TP=1.14669 SL=1.14169
+2026-03-16 08:47:00,576 [INFO] risk_manager — Level filled: BUY @ 1.14219 ticket=1610391205
+2026-03-16 08:47:00,577 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14219 lot=0.01 TP=1.14619 SL=1.14119
+2026-03-16 08:47:00,868 [INFO] risk_manager — Level filled: SELL @ 1.14419 ticket=1610391209
+2026-03-16 08:47:00,880 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14419 lot=0.01 TP=1.14019 SL=1.14519
+2026-03-16 08:47:01,160 [INFO] risk_manager — Level filled: SELL @ 1.14469 ticket=1610391212
+2026-03-16 08:47:01,169 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14469 lot=0.01 TP=1.14069 SL=1.14569
+2026-03-16 08:47:01,452 [INFO] risk_manager — Level filled: SELL @ 1.14519 ticket=1610391217
+2026-03-16 08:47:01,457 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14519 lot=0.01 TP=1.14119 SL=1.14619
+2026-03-16 08:47:01,573 [INFO] risk_manager — Level closed: ticket=1610391196 profit=0.00
+2026-03-16 08:47:01,574 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14319 profit=0.00
+2026-03-16 08:47:01,574 [INFO] risk_manager — Level closed: ticket=1610391202 profit=0.00
+2026-03-16 08:47:01,575 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14269 profit=0.00
+2026-03-16 08:47:01,575 [INFO] risk_manager — Level closed: ticket=1610391205 profit=0.00
+2026-03-16 08:47:01,575 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14219 profit=0.00
+2026-03-16 08:47:01,576 [INFO] risk_manager — Level closed: ticket=1610391209 profit=0.00
+2026-03-16 08:47:01,576 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14419 profit=0.00
+2026-03-16 08:47:01,577 [INFO] risk_manager — Level closed: ticket=1610391212 profit=0.00
+2026-03-16 08:47:01,577 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14469 profit=0.00
+2026-03-16 08:47:01,578 [INFO] risk_manager — Level closed: ticket=1610391217 profit=0.00
+2026-03-16 08:47:01,578 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14519 profit=0.00
+2026-03-16 08:47:01,578 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:01,579 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:01,580 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:01,866 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610391230
+2026-03-16 08:47:01,867 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:47:02,144 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610391234
+2026-03-16 08:47:02,145 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:47:02,413 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610391236
+2026-03-16 08:47:02,414 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:47:02,695 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610391237
+2026-03-16 08:47:02,712 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:47:03,242 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610391238
+2026-03-16 08:47:03,273 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:47:03,567 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391258
+2026-03-16 08:47:03,576 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:47:03,712 [INFO] risk_manager — Level closed: ticket=1610391230 profit=0.00
+2026-03-16 08:47:03,712 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:47:03,714 [INFO] risk_manager — Level closed: ticket=1610391234 profit=0.00
+2026-03-16 08:47:03,715 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:47:03,716 [INFO] risk_manager — Level closed: ticket=1610391236 profit=0.00
+2026-03-16 08:47:03,717 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:47:03,719 [INFO] risk_manager — Level closed: ticket=1610391237 profit=0.00
+2026-03-16 08:47:03,721 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:47:03,724 [INFO] risk_manager — Level closed: ticket=1610391238 profit=0.00
+2026-03-16 08:47:03,725 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:47:03,727 [INFO] risk_manager — Level closed: ticket=1610391258 profit=0.00
+2026-03-16 08:47:03,727 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:47:03,728 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:03,728 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:03,729 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:04,004 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610391266
+2026-03-16 08:47:04,007 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:47:04,322 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610391268
+2026-03-16 08:47:04,325 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:47:04,597 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610391276
+2026-03-16 08:47:04,597 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:47:04,893 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610391277
+2026-03-16 08:47:04,917 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:47:05,197 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610391281
+2026-03-16 08:47:05,230 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:47:05,563 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391282
+2026-03-16 08:47:05,564 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:47:05,675 [INFO] risk_manager — Level closed: ticket=1610391266 profit=0.00
+2026-03-16 08:47:05,676 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:47:05,677 [INFO] risk_manager — Level closed: ticket=1610391268 profit=0.00
+2026-03-16 08:47:05,678 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:47:05,679 [INFO] risk_manager — Level closed: ticket=1610391276 profit=0.00
+2026-03-16 08:47:05,679 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:47:05,680 [INFO] risk_manager — Level closed: ticket=1610391277 profit=0.00
+2026-03-16 08:47:05,680 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:47:05,681 [INFO] risk_manager — Level closed: ticket=1610391281 profit=0.00
+2026-03-16 08:47:05,682 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:47:05,683 [INFO] risk_manager — Level closed: ticket=1610391282 profit=0.00
+2026-03-16 08:47:05,683 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:47:05,684 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:05,684 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:05,684 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:06,006 [INFO] risk_manager — Level filled: BUY @ 1.14319 ticket=1610391292
+2026-03-16 08:47:06,007 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14319 lot=0.01 TP=1.14719 SL=1.14219
+2026-03-16 08:47:06,396 [INFO] risk_manager — Level filled: BUY @ 1.14269 ticket=1610391302
+2026-03-16 08:47:06,397 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14269 lot=0.01 TP=1.14669 SL=1.14169
+2026-03-16 08:47:06,756 [INFO] risk_manager — Level filled: BUY @ 1.14219 ticket=1610391306
+2026-03-16 08:47:06,776 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14219 lot=0.01 TP=1.14619 SL=1.14119
+2026-03-16 08:47:07,199 [INFO] risk_manager — Level filled: SELL @ 1.14419 ticket=1610391316
+2026-03-16 08:47:07,204 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14419 lot=0.01 TP=1.14019 SL=1.14519
+2026-03-16 08:47:07,540 [INFO] risk_manager — Level filled: SELL @ 1.14469 ticket=1610391325
+2026-03-16 08:47:07,542 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14469 lot=0.01 TP=1.14069 SL=1.14569
+2026-03-16 08:47:07,816 [INFO] risk_manager — Level filled: SELL @ 1.14519 ticket=1610391330
+2026-03-16 08:47:07,820 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14519 lot=0.01 TP=1.14119 SL=1.14619
+2026-03-16 08:47:07,926 [INFO] risk_manager — Level closed: ticket=1610391292 profit=0.00
+2026-03-16 08:47:07,926 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14319 profit=0.00
+2026-03-16 08:47:07,927 [INFO] risk_manager — Level closed: ticket=1610391302 profit=0.00
+2026-03-16 08:47:07,928 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14269 profit=0.00
+2026-03-16 08:47:07,928 [INFO] risk_manager — Level closed: ticket=1610391306 profit=0.00
+2026-03-16 08:47:07,929 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14219 profit=0.00
+2026-03-16 08:47:07,929 [INFO] risk_manager — Level closed: ticket=1610391316 profit=0.00
+2026-03-16 08:47:07,930 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14419 profit=0.00
+2026-03-16 08:47:07,930 [INFO] risk_manager — Level closed: ticket=1610391325 profit=0.00
+2026-03-16 08:47:07,931 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14469 profit=0.00
+2026-03-16 08:47:07,932 [INFO] risk_manager — Level closed: ticket=1610391330 profit=0.00
+2026-03-16 08:47:07,932 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14519 profit=0.00
+2026-03-16 08:47:07,933 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:07,933 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:07,934 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:08,262 [INFO] risk_manager — Level filled: BUY @ 1.14322 ticket=1610391341
+2026-03-16 08:47:08,264 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14322 lot=0.01 TP=1.14722 SL=1.14222
+2026-03-16 08:47:08,915 [INFO] risk_manager — Level filled: BUY @ 1.14272 ticket=1610391351
+2026-03-16 08:47:08,932 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14272 lot=0.01 TP=1.14672 SL=1.14172
+2026-03-16 08:47:09,259 [INFO] risk_manager — Level filled: BUY @ 1.14222 ticket=1610391359
+2026-03-16 08:47:09,309 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14222 lot=0.01 TP=1.14622 SL=1.14122
+2026-03-16 08:47:09,616 [INFO] risk_manager — Level filled: SELL @ 1.14422 ticket=1610391368
+2026-03-16 08:47:09,624 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14422 lot=0.01 TP=1.14022 SL=1.14522
+2026-03-16 08:47:09,961 [INFO] risk_manager — Level filled: SELL @ 1.14472 ticket=1610391376
+2026-03-16 08:47:09,966 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14472 lot=0.01 TP=1.14072 SL=1.14572
+2026-03-16 08:47:10,242 [INFO] risk_manager — Level filled: SELL @ 1.14522 ticket=1610391381
+2026-03-16 08:47:10,242 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14522 lot=0.01 TP=1.14122 SL=1.14622
+2026-03-16 08:47:10,356 [INFO] risk_manager — Level closed: ticket=1610391341 profit=0.00
+2026-03-16 08:47:10,356 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14322 profit=0.00
+2026-03-16 08:47:10,357 [INFO] risk_manager — Level closed: ticket=1610391351 profit=0.00
+2026-03-16 08:47:10,357 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14272 profit=0.00
+2026-03-16 08:47:10,358 [INFO] risk_manager — Level closed: ticket=1610391359 profit=0.00
+2026-03-16 08:47:10,358 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14222 profit=0.00
+2026-03-16 08:47:10,359 [INFO] risk_manager — Level closed: ticket=1610391368 profit=0.00
+2026-03-16 08:47:10,359 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14422 profit=0.00
+2026-03-16 08:47:10,360 [INFO] risk_manager — Level closed: ticket=1610391376 profit=0.00
+2026-03-16 08:47:10,360 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14472 profit=0.00
+2026-03-16 08:47:10,361 [INFO] risk_manager — Level closed: ticket=1610391381 profit=0.00
+2026-03-16 08:47:10,361 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14522 profit=0.00
+2026-03-16 08:47:10,361 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:10,362 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:10,362 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:10,642 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610391386
+2026-03-16 08:47:10,642 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:47:10,919 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610391388
+2026-03-16 08:47:10,920 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:47:11,190 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610391390
+2026-03-16 08:47:11,191 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:47:11,506 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610391392
+2026-03-16 08:47:11,520 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:47:11,822 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610391393
+2026-03-16 08:47:11,853 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:47:12,169 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610391397
+2026-03-16 08:47:12,191 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:47:12,311 [INFO] risk_manager — Level closed: ticket=1610391386 profit=0.00
+2026-03-16 08:47:12,311 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:47:12,312 [INFO] risk_manager — Level closed: ticket=1610391388 profit=0.00
+2026-03-16 08:47:12,312 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:47:12,313 [INFO] risk_manager — Level closed: ticket=1610391390 profit=0.00
+2026-03-16 08:47:12,313 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:47:12,314 [INFO] risk_manager — Level closed: ticket=1610391392 profit=0.00
+2026-03-16 08:47:12,314 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:47:12,315 [INFO] risk_manager — Level closed: ticket=1610391393 profit=0.00
+2026-03-16 08:47:12,315 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:47:12,316 [INFO] risk_manager — Level closed: ticket=1610391397 profit=0.00
+2026-03-16 08:47:12,316 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:47:12,317 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:12,319 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:12,320 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:12,663 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610391406
+2026-03-16 08:47:12,663 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:47:12,954 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610391415
+2026-03-16 08:47:12,955 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:47:13,262 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610391423
+2026-03-16 08:47:13,278 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:47:13,562 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610391430
+2026-03-16 08:47:13,579 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:47:13,862 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610391440
+2026-03-16 08:47:13,869 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:47:14,158 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610391445
+2026-03-16 08:47:14,160 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:47:14,296 [INFO] risk_manager — Level closed: ticket=1610391406 profit=0.00
+2026-03-16 08:47:14,297 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:47:14,298 [INFO] risk_manager — Level closed: ticket=1610391415 profit=0.00
+2026-03-16 08:47:14,298 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:47:14,299 [INFO] risk_manager — Level closed: ticket=1610391423 profit=0.00
+2026-03-16 08:47:14,300 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:47:14,302 [INFO] risk_manager — Level closed: ticket=1610391430 profit=0.00
+2026-03-16 08:47:14,303 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:47:14,304 [INFO] risk_manager — Level closed: ticket=1610391440 profit=0.00
+2026-03-16 08:47:14,304 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:47:14,305 [INFO] risk_manager — Level closed: ticket=1610391445 profit=0.00
+2026-03-16 08:47:14,306 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:47:14,306 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:14,307 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:14,307 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:14,595 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610391452
+2026-03-16 08:47:14,596 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:47:14,940 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610391458
+2026-03-16 08:47:14,941 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:47:15,224 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610391464
+2026-03-16 08:47:15,237 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:47:15,525 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610391469
+2026-03-16 08:47:15,528 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:47:15,971 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610391477
+2026-03-16 08:47:15,973 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:47:16,281 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391486
+2026-03-16 08:47:16,290 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:47:16,399 [INFO] risk_manager — Level closed: ticket=1610391452 profit=0.00
+2026-03-16 08:47:16,401 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:47:16,402 [INFO] risk_manager — Level closed: ticket=1610391458 profit=0.00
+2026-03-16 08:47:16,402 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:47:16,403 [INFO] risk_manager — Level closed: ticket=1610391464 profit=0.00
+2026-03-16 08:47:16,403 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:47:16,404 [INFO] risk_manager — Level closed: ticket=1610391469 profit=0.00
+2026-03-16 08:47:16,404 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:47:16,405 [INFO] risk_manager — Level closed: ticket=1610391477 profit=0.00
+2026-03-16 08:47:16,405 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:47:16,406 [INFO] risk_manager — Level closed: ticket=1610391486 profit=0.00
+2026-03-16 08:47:16,406 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:47:16,407 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:16,408 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:16,408 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:16,684 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610391493
+2026-03-16 08:47:16,686 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:47:16,972 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610391497
+2026-03-16 08:47:16,973 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:47:17,272 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610391501
+2026-03-16 08:47:17,273 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:47:17,531 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610391504
+2026-03-16 08:47:17,570 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:47:17,855 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610391508
+2026-03-16 08:47:17,865 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:47:18,183 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391512
+2026-03-16 08:47:18,193 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:47:18,298 [INFO] risk_manager — Level closed: ticket=1610391493 profit=0.00
+2026-03-16 08:47:18,300 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:47:18,301 [INFO] risk_manager — Level closed: ticket=1610391497 profit=0.00
+2026-03-16 08:47:18,302 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:47:18,303 [INFO] risk_manager — Level closed: ticket=1610391501 profit=0.00
+2026-03-16 08:47:18,303 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:47:18,304 [INFO] risk_manager — Level closed: ticket=1610391504 profit=0.00
+2026-03-16 08:47:18,304 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:47:18,305 [INFO] risk_manager — Level closed: ticket=1610391508 profit=0.00
+2026-03-16 08:47:18,305 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:47:18,306 [INFO] risk_manager — Level closed: ticket=1610391512 profit=0.00
+2026-03-16 08:47:18,307 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:47:18,308 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:18,308 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:18,308 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:18,593 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610391519
+2026-03-16 08:47:18,594 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:47:18,903 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610391524
+2026-03-16 08:47:18,904 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:47:19,227 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610391529
+2026-03-16 08:47:19,245 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:47:19,561 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610391533
+2026-03-16 08:47:19,570 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:47:19,877 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610391537
+2026-03-16 08:47:19,880 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:47:20,272 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391539
+2026-03-16 08:47:20,281 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:47:20,426 [INFO] risk_manager — Level closed: ticket=1610391519 profit=0.00
+2026-03-16 08:47:20,427 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:47:20,428 [INFO] risk_manager — Level closed: ticket=1610391524 profit=0.00
+2026-03-16 08:47:20,429 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:47:20,430 [INFO] risk_manager — Level closed: ticket=1610391529 profit=0.00
+2026-03-16 08:47:20,430 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:47:20,432 [INFO] risk_manager — Level closed: ticket=1610391533 profit=0.00
+2026-03-16 08:47:20,433 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:47:20,434 [INFO] risk_manager — Level closed: ticket=1610391537 profit=0.00
+2026-03-16 08:47:20,435 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:47:20,436 [INFO] risk_manager — Level closed: ticket=1610391539 profit=0.00
+2026-03-16 08:47:20,437 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:47:20,437 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:20,438 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:20,438 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:20,764 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610391548
+2026-03-16 08:47:20,767 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:47:21,040 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610391553
+2026-03-16 08:47:21,041 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:47:21,323 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610391561
+2026-03-16 08:47:21,330 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:47:21,662 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610391568
+2026-03-16 08:47:21,668 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:47:22,000 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610391578
+2026-03-16 08:47:22,002 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:47:22,307 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391587
+2026-03-16 08:47:22,315 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:47:22,435 [INFO] risk_manager — Level closed: ticket=1610391548 profit=0.00
+2026-03-16 08:47:22,435 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:47:22,437 [INFO] risk_manager — Level closed: ticket=1610391553 profit=0.00
+2026-03-16 08:47:22,437 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:47:22,438 [INFO] risk_manager — Level closed: ticket=1610391561 profit=0.00
+2026-03-16 08:47:22,439 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:47:22,440 [INFO] risk_manager — Level closed: ticket=1610391568 profit=0.00
+2026-03-16 08:47:22,441 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:47:22,442 [INFO] risk_manager — Level closed: ticket=1610391578 profit=0.00
+2026-03-16 08:47:22,443 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:47:22,444 [INFO] risk_manager — Level closed: ticket=1610391587 profit=0.00
+2026-03-16 08:47:22,444 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:47:22,445 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:22,445 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:22,446 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:22,731 [INFO] risk_manager — Level filled: BUY @ 1.14322 ticket=1610391592
+2026-03-16 08:47:22,733 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14322 lot=0.01 TP=1.14722 SL=1.14222
+2026-03-16 08:47:23,020 [INFO] risk_manager — Level filled: BUY @ 1.14272 ticket=1610391594
+2026-03-16 08:47:23,021 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14272 lot=0.01 TP=1.14672 SL=1.14172
+2026-03-16 08:47:23,361 [INFO] risk_manager — Level filled: BUY @ 1.14222 ticket=1610391602
+2026-03-16 08:47:23,373 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14222 lot=0.01 TP=1.14622 SL=1.14122
+2026-03-16 08:47:23,687 [INFO] risk_manager — Level filled: SELL @ 1.14422 ticket=1610391609
+2026-03-16 08:47:23,718 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14422 lot=0.01 TP=1.14022 SL=1.14522
+2026-03-16 08:47:24,033 [INFO] risk_manager — Level filled: SELL @ 1.14472 ticket=1610391614
+2026-03-16 08:47:24,036 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14472 lot=0.01 TP=1.14072 SL=1.14572
+2026-03-16 08:47:24,340 [INFO] risk_manager — Level filled: SELL @ 1.14522 ticket=1610391623
+2026-03-16 08:47:24,342 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14522 lot=0.01 TP=1.14122 SL=1.14622
+2026-03-16 08:47:24,443 [INFO] risk_manager — Level closed: ticket=1610391592 profit=0.00
+2026-03-16 08:47:24,444 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14322 profit=0.00
+2026-03-16 08:47:24,444 [INFO] risk_manager — Level closed: ticket=1610391594 profit=0.00
+2026-03-16 08:47:24,445 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14272 profit=0.00
+2026-03-16 08:47:24,445 [INFO] risk_manager — Level closed: ticket=1610391602 profit=0.00
+2026-03-16 08:47:24,446 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14222 profit=0.00
+2026-03-16 08:47:24,447 [INFO] risk_manager — Level closed: ticket=1610391609 profit=0.00
+2026-03-16 08:47:24,448 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14422 profit=0.00
+2026-03-16 08:47:24,449 [INFO] risk_manager — Level closed: ticket=1610391614 profit=0.00
+2026-03-16 08:47:24,449 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14472 profit=0.00
+2026-03-16 08:47:24,450 [INFO] risk_manager — Level closed: ticket=1610391623 profit=0.00
+2026-03-16 08:47:24,450 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14522 profit=0.00
+2026-03-16 08:47:24,451 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:24,451 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:24,451 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:24,791 [INFO] risk_manager — Level filled: BUY @ 1.1432 ticket=1610391632
+2026-03-16 08:47:24,792 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14320 lot=0.01 TP=1.14720 SL=1.14220
+2026-03-16 08:47:25,174 [INFO] risk_manager — Level filled: BUY @ 1.1427 ticket=1610391640
+2026-03-16 08:47:25,175 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14270 lot=0.01 TP=1.14670 SL=1.14170
+2026-03-16 08:47:25,493 [INFO] risk_manager — Level filled: BUY @ 1.1422 ticket=1610391646
+2026-03-16 08:47:25,526 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14220 lot=0.01 TP=1.14620 SL=1.14120
+2026-03-16 08:47:25,854 [INFO] risk_manager — Level filled: SELL @ 1.1442 ticket=1610391659
+2026-03-16 08:47:25,855 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14420 lot=0.01 TP=1.14020 SL=1.14520
+2026-03-16 08:47:26,165 [INFO] risk_manager — Level filled: SELL @ 1.1447 ticket=1610391664
+2026-03-16 08:47:26,183 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14470 lot=0.01 TP=1.14070 SL=1.14570
+2026-03-16 08:47:26,463 [INFO] risk_manager — Level filled: SELL @ 1.1452 ticket=1610391669
+2026-03-16 08:47:26,465 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14520 lot=0.01 TP=1.14120 SL=1.14620
+2026-03-16 08:47:26,577 [INFO] risk_manager — Level closed: ticket=1610391632 profit=0.00
+2026-03-16 08:47:26,577 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14320 profit=0.00
+2026-03-16 08:47:26,578 [INFO] risk_manager — Level closed: ticket=1610391640 profit=0.00
+2026-03-16 08:47:26,578 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14270 profit=0.00
+2026-03-16 08:47:26,579 [INFO] risk_manager — Level closed: ticket=1610391646 profit=0.00
+2026-03-16 08:47:26,580 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14220 profit=0.00
+2026-03-16 08:47:26,581 [INFO] risk_manager — Level closed: ticket=1610391659 profit=0.00
+2026-03-16 08:47:26,581 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14420 profit=0.00
+2026-03-16 08:47:26,582 [INFO] risk_manager — Level closed: ticket=1610391664 profit=0.00
+2026-03-16 08:47:26,582 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14470 profit=0.00
+2026-03-16 08:47:26,583 [INFO] risk_manager — Level closed: ticket=1610391669 profit=0.00
+2026-03-16 08:47:26,583 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14520 profit=0.00
+2026-03-16 08:47:26,584 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:26,584 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:26,585 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:26,858 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610391674
+2026-03-16 08:47:26,858 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:47:27,126 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610391678
+2026-03-16 08:47:27,126 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:47:27,438 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610391684
+2026-03-16 08:47:27,440 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:47:27,723 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610391691
+2026-03-16 08:47:27,742 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:47:28,083 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610391697
+2026-03-16 08:47:28,104 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:47:28,403 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610391701
+2026-03-16 08:47:28,429 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:47:28,541 [INFO] risk_manager — Level closed: ticket=1610391674 profit=0.00
+2026-03-16 08:47:28,542 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:47:28,543 [INFO] risk_manager — Level closed: ticket=1610391678 profit=0.00
+2026-03-16 08:47:28,544 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:47:28,547 [INFO] risk_manager — Level closed: ticket=1610391684 profit=0.00
+2026-03-16 08:47:28,549 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:47:28,550 [INFO] risk_manager — Level closed: ticket=1610391691 profit=0.00
+2026-03-16 08:47:28,551 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:47:28,553 [INFO] risk_manager — Level closed: ticket=1610391697 profit=0.00
+2026-03-16 08:47:28,554 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:47:28,555 [INFO] risk_manager — Level closed: ticket=1610391701 profit=0.00
+2026-03-16 08:47:28,556 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:47:28,556 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:28,557 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:28,559 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:28,877 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610391713
+2026-03-16 08:47:28,877 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:47:29,204 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610391715
+2026-03-16 08:47:29,205 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:47:29,520 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:47:29,520 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610391716
+2026-03-16 08:47:29,572 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:47:30,002 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610391721
+2026-03-16 08:47:30,024 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:47:30,319 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610391723
+2026-03-16 08:47:30,330 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:47:30,663 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610391726
+2026-03-16 08:47:30,673 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:47:30,687 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:47:30,814 [INFO] risk_manager — Level closed: ticket=1610391713 profit=0.00
+2026-03-16 08:47:30,814 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:47:30,815 [INFO] risk_manager — Level closed: ticket=1610391715 profit=0.00
+2026-03-16 08:47:30,815 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:47:30,816 [INFO] risk_manager — Level closed: ticket=1610391716 profit=0.00
+2026-03-16 08:47:30,816 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:47:30,817 [INFO] risk_manager — Level closed: ticket=1610391721 profit=0.00
+2026-03-16 08:47:30,817 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:47:30,818 [INFO] risk_manager — Level closed: ticket=1610391723 profit=0.00
+2026-03-16 08:47:30,818 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:47:30,819 [INFO] risk_manager — Level closed: ticket=1610391726 profit=0.00
+2026-03-16 08:47:30,819 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:47:30,819 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:30,820 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:30,820 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:31,093 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610391732
+2026-03-16 08:47:31,096 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:47:31,368 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610391736
+2026-03-16 08:47:31,369 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:47:31,671 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610391739
+2026-03-16 08:47:31,671 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:47:31,991 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610391742
+2026-03-16 08:47:32,021 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:47:32,312 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610391746
+2026-03-16 08:47:32,317 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:47:32,601 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610391755
+2026-03-16 08:47:32,618 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:47:32,740 [INFO] risk_manager — Level closed: ticket=1610391732 profit=0.00
+2026-03-16 08:47:32,750 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:47:32,751 [INFO] risk_manager — Level closed: ticket=1610391736 profit=0.00
+2026-03-16 08:47:32,752 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:47:32,753 [INFO] risk_manager — Level closed: ticket=1610391739 profit=0.00
+2026-03-16 08:47:32,754 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:47:32,755 [INFO] risk_manager — Level closed: ticket=1610391742 profit=0.00
+2026-03-16 08:47:32,756 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:47:32,757 [INFO] risk_manager — Level closed: ticket=1610391746 profit=0.00
+2026-03-16 08:47:32,764 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:47:32,765 [INFO] risk_manager — Level closed: ticket=1610391755 profit=0.00
+2026-03-16 08:47:32,768 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:47:32,769 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:32,770 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:32,771 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:33,086 [INFO] risk_manager — Level filled: BUY @ 1.14322 ticket=1610391763
+2026-03-16 08:47:33,089 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14322 lot=0.01 TP=1.14722 SL=1.14222
+2026-03-16 08:47:33,624 [INFO] risk_manager — Level filled: BUY @ 1.14272 ticket=1610391768
+2026-03-16 08:47:33,626 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14272 lot=0.01 TP=1.14672 SL=1.14172
+2026-03-16 08:47:33,944 [INFO] risk_manager — Level filled: BUY @ 1.14222 ticket=1610391852
+2026-03-16 08:47:33,983 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14222 lot=0.01 TP=1.14622 SL=1.14122
+2026-03-16 08:47:34,262 [INFO] risk_manager — Level filled: SELL @ 1.14422 ticket=1610391858
+2026-03-16 08:47:34,271 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14422 lot=0.01 TP=1.14022 SL=1.14522
+2026-03-16 08:47:34,635 [INFO] risk_manager — Level filled: SELL @ 1.14472 ticket=1610391863
+2026-03-16 08:47:34,647 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14472 lot=0.01 TP=1.14072 SL=1.14572
+2026-03-16 08:47:34,944 [INFO] risk_manager — Level filled: SELL @ 1.14522 ticket=1610391873
+2026-03-16 08:47:34,952 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14522 lot=0.01 TP=1.14122 SL=1.14622
+2026-03-16 08:47:35,047 [INFO] risk_manager — Level closed: ticket=1610391763 profit=0.00
+2026-03-16 08:47:35,048 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14322 profit=0.00
+2026-03-16 08:47:35,048 [INFO] risk_manager — Level closed: ticket=1610391768 profit=0.00
+2026-03-16 08:47:35,049 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14272 profit=0.00
+2026-03-16 08:47:35,050 [INFO] risk_manager — Level closed: ticket=1610391852 profit=0.00
+2026-03-16 08:47:35,051 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14222 profit=0.00
+2026-03-16 08:47:35,051 [INFO] risk_manager — Level closed: ticket=1610391858 profit=0.00
+2026-03-16 08:47:35,052 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14422 profit=0.00
+2026-03-16 08:47:35,052 [INFO] risk_manager — Level closed: ticket=1610391863 profit=0.00
+2026-03-16 08:47:35,053 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14472 profit=0.00
+2026-03-16 08:47:35,054 [INFO] risk_manager — Level closed: ticket=1610391873 profit=0.00
+2026-03-16 08:47:35,055 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14522 profit=0.00
+2026-03-16 08:47:35,055 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:35,055 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:35,056 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:35,354 [INFO] risk_manager — Level filled: BUY @ 1.14322 ticket=1610391879
+2026-03-16 08:47:35,356 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14322 lot=0.01 TP=1.14722 SL=1.14222
+2026-03-16 08:47:35,654 [INFO] risk_manager — Level filled: BUY @ 1.14272 ticket=1610391884
+2026-03-16 08:47:35,656 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14272 lot=0.01 TP=1.14672 SL=1.14172
+2026-03-16 08:47:35,937 [INFO] risk_manager — Level filled: BUY @ 1.14222 ticket=1610391892
+2026-03-16 08:47:35,938 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14222 lot=0.01 TP=1.14622 SL=1.14122
+2026-03-16 08:47:36,212 [INFO] risk_manager — Level filled: SELL @ 1.14422 ticket=1610391895
+2026-03-16 08:47:36,233 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14422 lot=0.01 TP=1.14022 SL=1.14522
+2026-03-16 08:47:36,520 [INFO] risk_manager — Level filled: SELL @ 1.14472 ticket=1610391897
+2026-03-16 08:47:36,532 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14472 lot=0.01 TP=1.14072 SL=1.14572
+2026-03-16 08:47:36,805 [INFO] risk_manager — Level filled: SELL @ 1.14522 ticket=1610391901
+2026-03-16 08:47:36,817 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14522 lot=0.01 TP=1.14122 SL=1.14622
+2026-03-16 08:47:36,942 [INFO] risk_manager — Level closed: ticket=1610391879 profit=0.00
+2026-03-16 08:47:36,943 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14322 profit=0.00
+2026-03-16 08:47:36,944 [INFO] risk_manager — Level closed: ticket=1610391884 profit=0.00
+2026-03-16 08:47:36,944 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14272 profit=0.00
+2026-03-16 08:47:36,945 [INFO] risk_manager — Level closed: ticket=1610391892 profit=0.00
+2026-03-16 08:47:36,945 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14222 profit=0.00
+2026-03-16 08:47:36,946 [INFO] risk_manager — Level closed: ticket=1610391895 profit=0.00
+2026-03-16 08:47:36,946 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14422 profit=0.00
+2026-03-16 08:47:36,947 [INFO] risk_manager — Level closed: ticket=1610391897 profit=0.00
+2026-03-16 08:47:36,947 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14472 profit=0.00
+2026-03-16 08:47:36,948 [INFO] risk_manager — Level closed: ticket=1610391901 profit=0.00
+2026-03-16 08:47:36,949 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14522 profit=0.00
+2026-03-16 08:47:36,949 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:36,949 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:36,950 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:37,222 [INFO] risk_manager — Level filled: BUY @ 1.14321 ticket=1610391912
+2026-03-16 08:47:37,223 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14321 lot=0.01 TP=1.14721 SL=1.14221
+2026-03-16 08:47:37,500 [INFO] risk_manager — Level filled: BUY @ 1.14271 ticket=1610391923
+2026-03-16 08:47:37,501 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14271 lot=0.01 TP=1.14671 SL=1.14171
+2026-03-16 08:47:37,769 [INFO] risk_manager — Level filled: BUY @ 1.14221 ticket=1610391929
+2026-03-16 08:47:37,769 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14221 lot=0.01 TP=1.14621 SL=1.14121
+2026-03-16 08:47:38,067 [INFO] risk_manager — Level filled: SELL @ 1.14421 ticket=1610391940
+2026-03-16 08:47:38,082 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14421 lot=0.01 TP=1.14021 SL=1.14521
+2026-03-16 08:47:38,422 [INFO] risk_manager — Level filled: SELL @ 1.14471 ticket=1610391950
+2026-03-16 08:47:38,441 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14471 lot=0.01 TP=1.14071 SL=1.14571
+2026-03-16 08:47:38,742 [INFO] risk_manager — Level filled: SELL @ 1.14521 ticket=1610391957
+2026-03-16 08:47:38,745 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14521 lot=0.01 TP=1.14121 SL=1.14621
+2026-03-16 08:47:38,867 [INFO] risk_manager — Level closed: ticket=1610391912 profit=0.00
+2026-03-16 08:47:38,868 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14321 profit=0.00
+2026-03-16 08:47:38,869 [INFO] risk_manager — Level closed: ticket=1610391923 profit=0.00
+2026-03-16 08:47:38,869 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14271 profit=0.00
+2026-03-16 08:47:38,870 [INFO] risk_manager — Level closed: ticket=1610391929 profit=0.00
+2026-03-16 08:47:38,871 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14221 profit=0.00
+2026-03-16 08:47:38,871 [INFO] risk_manager — Level closed: ticket=1610391940 profit=0.00
+2026-03-16 08:47:38,872 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14421 profit=0.00
+2026-03-16 08:47:38,873 [INFO] risk_manager — Level closed: ticket=1610391950 profit=0.00
+2026-03-16 08:47:38,874 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14471 profit=0.00
+2026-03-16 08:47:38,875 [INFO] risk_manager — Level closed: ticket=1610391957 profit=0.00
+2026-03-16 08:47:38,877 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14521 profit=0.00
+2026-03-16 08:47:38,877 [INFO] risk_manager — Grid cleared
+2026-03-16 08:47:38,878 [INFO] risk_manager — Grid built: 6 levels | signal=NEUTRAL | lot=0.01
+2026-03-16 08:47:38,879 [INFO] bot_engine — [INFO] Grid rebuilt: NEUTRAL | 6 levels
+2026-03-16 08:47:39,151 [INFO] risk_manager — Level filled: BUY @ 1.14326 ticket=1610391964
+2026-03-16 08:47:39,152 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14326 lot=0.01 TP=1.14726 SL=1.14226
+2026-03-16 08:47:39,435 [INFO] risk_manager — Level filled: BUY @ 1.14276 ticket=1610391968
+2026-03-16 08:47:39,437 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14276 lot=0.01 TP=1.14676 SL=1.14176
+2026-03-16 08:47:39,703 [INFO] risk_manager — Level filled: BUY @ 1.14226 ticket=1610391972
+2026-03-16 08:47:39,703 [INFO] bot_engine — [TRADE] LIMIT BUY placed @ 1.14226 lot=0.01 TP=1.14626 SL=1.14126
+2026-03-16 08:47:39,994 [INFO] risk_manager — Level filled: SELL @ 1.14426 ticket=1610391981
+2026-03-16 08:47:40,015 [INFO] bot_engine — [TRADE] LIMIT SELL placed @ 1.14426 lot=0.01 TP=1.14026 SL=1.14526
+2026-03-16 08:47:40,032 [INFO] bot_engine — [ERROR] Order failed: Orders limit reached
+2026-03-16 08:47:40,070 [INFO] bot_engine — [ERROR] Order failed: Orders limit reached
+2026-03-16 08:47:40,174 [INFO] risk_manager — Level closed: ticket=1610391964 profit=0.00
+2026-03-16 08:47:40,176 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14326 profit=0.00
+2026-03-16 08:47:40,178 [INFO] risk_manager — Level closed: ticket=1610391968 profit=0.00
+2026-03-16 08:47:40,178 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14276 profit=0.00
+2026-03-16 08:47:40,180 [INFO] risk_manager — Level closed: ticket=1610391972 profit=0.00
+2026-03-16 08:47:40,180 [INFO] bot_engine — [TRADE] SL HIT BUY @ 1.14226 profit=0.00
+2026-03-16 08:47:40,181 [INFO] risk_manager — Level closed: ticket=1610391981 profit=0.00
+2026-03-16 08:47:40,182 [INFO] bot_engine — [TRADE] SL HIT SELL @ 1.14426 profit=0.00
+2026-03-16 08:48:16,348 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:48:17,868 [INFO] __main__ — Dashboard client connected
+2026-03-16 08:48:47,587 [WARNING] risk_manager — Daily DD breached: 2.78% >= 2.0%
+2026-03-16 08:48:47,588 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-16 08:48:47,588 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-16 08:48:47,588 [INFO] bot_engine — Bot engine stopped
+2026-03-16 08:48:47,596 [WARNING] risk_manager — Daily DD breached: 2.78% >= 2.0%
+2026-03-16 08:48:47,596 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-16 08:48:47,597 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-16 08:48:47,597 [INFO] bot_engine — Bot engine stopped
+2026-03-16 08:49:03,267 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 08:49:04,699 [INFO] __main__ — Dashboard client connected
+2026-03-16 09:11:41,558 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 09:11:41,566 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 09:11:41,682 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 09:11:41,683 [INFO] ml_engine — Label distribution: {0: 2631, -1: 1254, 1: 1096}
+2026-03-16 09:11:43,492 [INFO] ml_engine — Model saved
+2026-03-16 09:11:43,493 [INFO] ml_engine — Training done — accuracy: 60.1%
+2026-03-16 09:11:43,495 [INFO] bot_engine — [INFO] Retrain done — accuracy=60.1% | n_features=37
+2026-03-16 09:24:13,568 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 09:24:13,581 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 09:24:13,708 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 09:24:13,709 [INFO] ml_engine — Label distribution: {0: 2630, -1: 1254, 1: 1097}
+2026-03-16 09:24:15,768 [INFO] ml_engine — Model saved
+2026-03-16 09:24:15,768 [INFO] ml_engine — Training done — accuracy: 59.9%
+2026-03-16 09:24:15,769 [INFO] bot_engine — [INFO] Retrain done — accuracy=59.9% | n_features=37
+2026-03-16 09:24:38,348 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 09:24:38,555 [INFO] __main__ — Dashboard client connected
+2026-03-16 09:25:04,464 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 770.94
+2026-03-16 09:25:04,814 [INFO] ml_engine — Model loaded from disk
+2026-03-16 09:25:04,840 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 09:25:04,840 [INFO] bot_engine — [INFO] Bot started
+2026-03-16 09:25:05,171 [INFO] bot_engine — Bot engine started
+2026-03-16 09:25:05,213 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 09:25:05,862 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 09:25:05,863 [INFO] ml_engine — Label distribution: {0: 1763, -1: 1708, 1: 1510}
+2026-03-16 09:25:08,086 [INFO] ml_engine — Model saved
+2026-03-16 09:25:08,087 [INFO] ml_engine — Training done — accuracy: 42.3%
+2026-03-16 09:25:08,088 [INFO] bot_engine — [INFO] Retrain done — accuracy=42.3% | n_features=37
+2026-03-16 09:25:08,089 [INFO] risk_manager — New trading day — start balance: 770.94
+2026-03-16 09:25:08,089 [WARNING] risk_manager — Daily DD breached: 26.81% >= 2.0%
+2026-03-16 09:25:08,089 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-16 09:25:08,089 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-16 09:25:08,090 [INFO] bot_engine — Bot engine stopped
+2026-03-16 09:25:27,078 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 09:25:27,215 [INFO] __main__ — Dashboard client connected
+2026-03-16 09:25:53,315 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 770.94
+2026-03-16 09:25:53,598 [INFO] ml_engine — Model loaded from disk
+2026-03-16 09:25:53,642 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 09:25:53,643 [INFO] bot_engine — [INFO] Bot started
+2026-03-16 09:25:53,788 [INFO] bot_engine — Bot engine started
+2026-03-16 09:25:53,863 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 09:25:54,411 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 09:25:54,428 [INFO] ml_engine — Label distribution: {0: 2007, -1: 1573, 1: 1401}
+2026-03-16 09:25:57,049 [INFO] ml_engine — Model saved
+2026-03-16 09:25:57,050 [INFO] ml_engine — Training done — accuracy: 54.6%
+2026-03-16 09:25:57,052 [INFO] bot_engine — [INFO] Retrain done — accuracy=54.6% | n_features=37
+2026-03-16 09:25:57,053 [INFO] risk_manager — New trading day — start balance: 770.94
+2026-03-16 09:25:57,053 [WARNING] risk_manager — Daily DD breached: 25.03% >= 10.0%
+2026-03-16 09:25:57,053 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-16 09:25:57,053 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-16 09:25:57,054 [INFO] bot_engine — Bot engine stopped
+2026-03-16 09:28:50,980 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 09:28:51,001 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 09:28:51,133 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 09:28:51,133 [INFO] ml_engine — Label distribution: {0: 2007, -1: 1573, 1: 1401}
+2026-03-16 09:28:53,370 [INFO] ml_engine — Model saved
+2026-03-16 09:28:53,374 [INFO] ml_engine — Training done — accuracy: 54.8%
+2026-03-16 09:28:53,376 [INFO] bot_engine — [INFO] Retrain done — accuracy=54.8% | n_features=37
+2026-03-16 10:18:49,420 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 10:18:49,673 [INFO] __main__ — Dashboard client connected
+2026-03-16 10:36:02,591 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 557.09
+2026-03-16 10:36:03,054 [INFO] ml_engine — Model loaded from disk
+2026-03-16 10:36:03,140 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 10:36:03,152 [INFO] bot_engine — [INFO] Bot started
+2026-03-16 10:36:03,447 [INFO] bot_engine — Bot engine started
+2026-03-16 10:36:03,801 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 10:36:04,213 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 10:36:04,214 [INFO] ml_engine — Label distribution: {0: 3910, 1: 601, -1: 470}
+2026-03-16 10:36:06,245 [INFO] ml_engine — Model saved
+2026-03-16 10:36:06,246 [INFO] ml_engine — Training done — accuracy: 73.5%
+2026-03-16 10:36:06,248 [INFO] bot_engine — [INFO] Retrain done — accuracy=73.5% | n_features=37
+2026-03-16 10:36:06,250 [INFO] risk_manager — New trading day — start balance: 557.09
+2026-03-16 10:36:06,251 [WARNING] risk_manager — Daily DD breached: 4.98% >= 2.0%
+2026-03-16 10:36:06,252 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-16 10:36:06,253 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-16 10:36:06,253 [INFO] bot_engine — Bot engine stopped
+2026-03-16 10:39:09,980 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 10:41:06,218 [INFO] __main__ — Grid ML Scalper server starting on http://localhost:5000
+2026-03-16 10:41:07,460 [INFO] __main__ — Dashboard client connected
+2026-03-16 10:43:09,967 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 10:43:10,161 [INFO] __main__ — Dashboard client connected
+2026-03-16 10:43:32,683 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 557.09
+2026-03-16 10:43:32,750 [INFO] ml_engine — Model loaded from disk
+2026-03-16 10:43:32,769 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 10:43:32,769 [INFO] bot_engine — [INFO] Bot started
+2026-03-16 10:43:32,784 [INFO] bot_engine — Bot engine started
+2026-03-16 10:43:32,936 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 10:43:33,513 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 10:43:33,514 [INFO] ml_engine — Label distribution: {0: 4431, 1: 286, -1: 264}
+2026-03-16 10:43:35,835 [INFO] ml_engine — Model saved
+2026-03-16 10:43:35,836 [INFO] ml_engine — Training done — accuracy: 88.3%
+2026-03-16 10:43:35,837 [INFO] bot_engine — [INFO] Retrain done — accuracy=88.3% | n_features=37
+2026-03-16 10:43:35,838 [INFO] risk_manager — New trading day — start balance: 557.09
+2026-03-16 10:43:35,841 [WARNING] risk_manager — Daily DD breached: 3.62% >= 2.0%
+2026-03-16 10:43:35,842 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-16 10:43:35,844 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-16 10:43:35,845 [INFO] bot_engine — Bot engine stopped

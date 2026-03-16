@@ -25,8 +25,8 @@ class RiskConfig:
     # Grid settings
     grid_step_pips:  float = 5.0          # distance between grid levels
     max_levels:      int   = 6            # max open grid positions per side
-    tp_pips:         float = 4.0          # take-profit per level
-    sl_pips:         float = 30.0         # hard stop (grid collapse SL)
+    tp_pips:         float = 40.0          # take-profit per level
+    sl_pips:         float = 15.0         # hard stop (grid collapse SL)
 
     # Money management
     risk_pct:        float = 0.4          # % of balance risked per trade
@@ -35,7 +35,7 @@ class RiskConfig:
     lot_step:        float = 0.01
 
     # Daily limits
-    max_daily_dd_pct: float = 2.0         # stop bot if daily DD exceeds this
+    max_daily_dd_pct: float = 20.0         # stop bot if daily DD exceeds this
     max_trades_day:  int   = 100
 
     # ML thresholds

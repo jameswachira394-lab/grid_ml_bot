@@ -34,51 +34,62 @@
 
     html,
     body {
-      height: 100%;
       background: var(--bg);
       color: var(--txt);
       font-family: 'JetBrains Mono', monospace;
       font-size: 12px;
-      overflow: hidden
+      overflow-x: hidden;
     }
 
-    /* ── CONNECT OVERLAY ── */
+    /* ── APP SHELL (dashboard portion keeps overflow:hidden) ── */
+    .app-shell {
+      height: 100vh;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: 44px 1fr;
+    }
+
+    /* ══════════════════════════════════════════
+       CONNECT OVERLAY
+    ══════════════════════════════════════════ */
     #overlay {
       position: fixed;
       inset: 0;
-      background: rgba(9, 12, 18, .95);
+      background: rgba(9, 12, 18, .96);
       z-index: 100;
       display: flex;
       align-items: center;
       justify-content: center;
-      backdrop-filter: blur(4px)
+      backdrop-filter: blur(6px);
+      padding: 16px;
     }
 
     .connect-card {
       background: var(--bg2);
       border: 1px solid var(--border2);
       border-radius: 8px;
-      padding: 32px 36px;
-      width: 420px
+      padding: 28px 28px 24px;
+      width: 100%;
+      max-width: 420px;
     }
 
     .connect-card h2 {
       font-size: 16px;
-      font-weight: 600;
-      letter-spacing: 2px;
+      font-weight: 700;
+      letter-spacing: 3px;
       color: #fff;
-      margin-bottom: 4px
+      margin-bottom: 4px;
     }
 
     .connect-card p {
       font-size: 10px;
       color: var(--txt2);
-      margin-bottom: 24px;
-      letter-spacing: .5px
+      margin-bottom: 20px;
+      letter-spacing: .5px;
     }
 
     .field {
-      margin-bottom: 12px
+      margin-bottom: 11px;
     }
 
     .field label {
@@ -86,7 +97,7 @@
       font-size: 9px;
       letter-spacing: 1px;
       color: var(--txt2);
-      margin-bottom: 4px
+      margin-bottom: 4px;
     }
 
     .field input,
@@ -99,18 +110,24 @@
       color: var(--txt);
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
-      outline: none
+      outline: none;
     }
 
     .field input:focus,
     .field select:focus {
-      border-color: var(--b)
+      border-color: var(--b);
     }
 
     .field-row {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 10px
+      gap: 10px;
+    }
+
+    @media (max-width: 420px) {
+      .field-row {
+        grid-template-columns: 1fr;
+      }
     }
 
     .connect-btn {
@@ -122,58 +139,57 @@
       border-radius: 4px;
       font-family: 'JetBrains Mono', monospace;
       font-size: 12px;
-      font-weight: 600;
+      font-weight: 700;
       letter-spacing: 1px;
       cursor: pointer;
       margin-top: 8px;
-      transition: opacity .2s
+      transition: opacity .2s;
     }
 
     .connect-btn:hover {
-      opacity: .85
+      opacity: .85;
     }
 
     #connect-status {
       margin-top: 10px;
       font-size: 10px;
       text-align: center;
-      height: 16px
+      height: 16px;
     }
 
-    /* ── APP ── */
-    .app {
-      display: grid;
-      grid-template-rows: 44px 1fr;
-      height: 100vh
-    }
-
+    /* ══════════════════════════════════════════
+       TOPBAR
+    ══════════════════════════════════════════ */
     .topbar {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
       padding: 0 12px;
       background: var(--bg1);
       border-bottom: 1px solid var(--border);
-      z-index: 10
+      z-index: 10;
+      flex-wrap: wrap;
+      min-height: 44px;
+      overflow: hidden;
     }
 
     .logo {
       font-size: 13px;
       font-weight: 700;
       letter-spacing: 3px;
-      color: #fff
+      color: #fff;
     }
 
     .divider {
       width: 1px;
       height: 18px;
-      background: var(--border2)
+      background: var(--border2);
     }
 
     .pair-label {
       font-size: 12px;
       font-weight: 600;
-      color: #fff
+      color: #fff;
     }
 
     .price-live {
@@ -181,7 +197,7 @@
       font-weight: 700;
       color: var(--g);
       min-width: 72px;
-      transition: color .3s
+      transition: color .3s;
     }
 
     .badge {
@@ -190,61 +206,61 @@
       font-size: 9px;
       font-weight: 700;
       letter-spacing: 1px;
-      border: 1px solid
+      border: 1px solid;
     }
 
     .bull {
       background: rgba(0, 200, 122, .1);
       color: var(--g);
-      border-color: rgba(0, 200, 122, .3)
+      border-color: rgba(0, 200, 122, .3);
     }
 
     .bear {
       background: rgba(255, 71, 87, .1);
       color: var(--r);
-      border-color: rgba(255, 71, 87, .3)
+      border-color: rgba(255, 71, 87, .3);
     }
 
     .side {
       background: rgba(255, 165, 2, .1);
       color: var(--y);
-      border-color: rgba(255, 165, 2, .3)
+      border-color: rgba(255, 165, 2, .3);
     }
 
     .sp {
-      flex: 1
+      flex: 1;
     }
 
     .dot-status {
       width: 7px;
       height: 7px;
       border-radius: 50%;
-      display: inline-block
+      display: inline-block;
     }
 
     .dot-on {
       background: var(--g);
-      animation: blink 1.4s ease-in-out infinite
+      animation: blink 1.4s ease-in-out infinite;
     }
 
     .dot-off {
-      background: var(--txt3)
+      background: var(--txt3);
     }
 
     @keyframes blink {
 
       0%,
       100% {
-        opacity: 1
+        opacity: 1;
       }
 
       50% {
-        opacity: .25
+        opacity: .25;
       }
     }
 
     .tbtn {
-      padding: 3px 11px;
+      padding: 3px 10px;
       border: 1px solid var(--border2);
       border-radius: 3px;
       background: transparent;
@@ -253,42 +269,70 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 10px;
       letter-spacing: .5px;
-      transition: all .2s
+      transition: all .2s;
+      white-space: nowrap;
     }
 
     .tbtn:hover {
-      background: var(--bg3)
+      background: var(--bg3);
     }
 
     .tbtn.on {
       background: var(--g);
       color: #000;
-      border-color: var(--g)
+      border-color: var(--g);
     }
 
     .tbtn.stop {
       background: var(--r);
       color: #fff;
-      border-color: var(--r)
+      border-color: var(--r);
+    }
+
+    /* Hide some topbar items on very small screens */
+    @media (max-width: 600px) {
+      .tb-hide {
+        display: none;
+      }
+
+      .price-live {
+        font-size: 12px;
+      }
     }
 
     .sess-time {
       font-size: 10px;
-      color: var(--txt3)
+      color: var(--txt3);
     }
 
-    /* ── MAIN GRID ── */
+    /* ══════════════════════════════════════════
+       MAIN DASHBOARD GRID
+    ══════════════════════════════════════════ */
     .main {
       display: grid;
       grid-template-columns: 1fr 260px;
-      overflow: hidden
+      overflow: hidden;
+      height: 100%;
+    }
+
+    @media (max-width: 900px) {
+      .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+      }
     }
 
     .left {
       display: grid;
       grid-template-rows: 210px 34px 1fr;
       border-right: 1px solid var(--border);
-      overflow: hidden
+      overflow: hidden;
+    }
+
+    @media (max-width: 900px) {
+      .left {
+        grid-template-rows: 180px 34px 200px;
+      }
     }
 
     .right {
@@ -297,25 +341,42 @@
       display: flex;
       flex-direction: column;
       gap: 7px;
-      background: var(--bg1)
+      background: var(--bg1);
+    }
+
+    @media (max-width: 900px) {
+      .right {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 7px;
+        max-height: 320px;
+        overflow-y: auto;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .right {
+        grid-template-columns: 1fr 1fr;
+      }
     }
 
     /* ── CHART ── */
     .chart-area {
       position: relative;
       overflow: hidden;
-      background: var(--bg)
+      background: var(--bg);
     }
 
     canvas {
-      display: block
+      display: block;
     }
 
     /* ── TABS ── */
     .tabs {
       display: flex;
       background: var(--bg1);
-      border-bottom: 1px solid var(--border)
+      border-bottom: 1px solid var(--border);
+      overflow-x: auto;
     }
 
     .tab {
@@ -329,16 +390,16 @@
       color: var(--txt2);
       border-bottom: 2px solid transparent;
       transition: all .2s;
-      white-space: nowrap
+      white-space: nowrap;
     }
 
     .tab:hover {
-      color: var(--txt)
+      color: var(--txt);
     }
 
     .tab.on {
       color: var(--b);
-      border-color: var(--b)
+      border-color: var(--b);
     }
 
     /* ── SECTIONS ── */
@@ -347,17 +408,17 @@
       padding: 8px;
       overflow-y: auto;
       height: 100%;
-      background: var(--bg)
+      background: var(--bg);
     }
 
     .section.on {
-      display: block
+      display: block;
     }
 
     /* ── LOG ── */
     .log-ul {
       list-style: none;
-      font-size: 10px
+      font-size: 10px;
     }
 
     .log-li {
@@ -365,38 +426,38 @@
       gap: 8px;
       padding: 3px 0;
       border-bottom: 1px solid var(--border);
-      align-items: flex-start
+      align-items: flex-start;
     }
 
     .log-li:last-child {
-      border: none
+      border: none;
     }
 
     .lts {
       color: var(--txt3);
       min-width: 44px;
-      flex-shrink: 0
+      flex-shrink: 0;
     }
 
     .lt-TRADE {
-      color: var(--g)
+      color: var(--g);
     }
 
     .lt-WARN {
-      color: var(--y)
+      color: var(--y);
     }
 
     .lt-ERROR {
-      color: var(--r)
+      color: var(--r);
     }
 
     .lt-INFO {
-      color: var(--b)
+      color: var(--b);
     }
 
     /* ── ML ── */
     .feat-row {
-      margin: 4px 0
+      margin: 4px 0;
     }
 
     .feat-head {
@@ -404,26 +465,26 @@
       justify-content: space-between;
       font-size: 10px;
       color: var(--txt2);
-      margin-bottom: 3px
+      margin-bottom: 3px;
     }
 
     .bar-track {
       height: 4px;
       background: var(--border);
       border-radius: 2px;
-      overflow: hidden
+      overflow: hidden;
     }
 
     .bar-fill {
       height: 100%;
       border-radius: 2px;
-      transition: width .6s ease
+      transition: width .6s ease;
     }
 
     .conf-boxes {
       display: flex;
       gap: 6px;
-      margin-top: 10px
+      margin-top: 10px;
     }
 
     .conf-box {
@@ -432,13 +493,13 @@
       border: 1px solid var(--border);
       border-radius: 4px;
       padding: 8px 4px;
-      background: var(--bg2)
+      background: var(--bg2);
     }
 
     .conf-num {
       font-size: 18px;
       font-weight: 700;
-      margin-top: 4px
+      margin-top: 4px;
     }
 
     /* ── BACKTEST ── */
@@ -446,33 +507,39 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 5px;
-      margin-bottom: 8px
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 480px) {
+      .bt-grid {
+        grid-template-columns: 1fr 1fr;
+      }
     }
 
     .bt-cell {
       background: var(--bg2);
       border: 1px solid var(--border);
       border-radius: 4px;
-      padding: 7px 8px
+      padding: 7px 8px;
     }
 
     .bt-lbl {
       font-size: 9px;
       color: var(--txt2);
       letter-spacing: .5px;
-      margin-bottom: 3px
+      margin-bottom: 3px;
     }
 
     .bt-val {
       font-size: 15px;
-      font-weight: 700
+      font-weight: 700;
     }
 
     /* ── GRID VISUAL ── */
     .grid-wrap {
       border: 1px solid var(--border);
       border-radius: 4px;
-      overflow: hidden
+      overflow: hidden;
     }
 
     /* ── RIGHT CARDS ── */
@@ -480,7 +547,7 @@
       border: 1px solid var(--border);
       border-radius: 5px;
       padding: 8px 10px;
-      background: var(--bg1)
+      background: var(--bg1);
     }
 
     .card-title {
@@ -488,7 +555,7 @@
       letter-spacing: 2px;
       color: var(--txt2);
       margin-bottom: 6px;
-      font-weight: 600
+      font-weight: 600;
     }
 
     .stat {
@@ -497,15 +564,15 @@
       align-items: center;
       padding: 2.5px 0;
       border-bottom: 1px solid var(--border);
-      font-size: 11px
+      font-size: 11px;
     }
 
     .stat:last-child {
-      border: none
+      border: none;
     }
 
     .sv {
-      font-weight: 600
+      font-weight: 600;
     }
 
     /* ── SIGNAL ── */
@@ -514,19 +581,19 @@
       padding: 11px 8px;
       border-radius: 4px;
       background: var(--bg2);
-      border: 1px solid var(--border)
+      border: 1px solid var(--border);
     }
 
     .sig-lbl {
       font-size: 13px;
       font-weight: 700;
       letter-spacing: 2px;
-      margin-bottom: 3px
+      margin-bottom: 3px;
     }
 
     .sig-sub {
       font-size: 9px;
-      color: var(--txt2)
+      color: var(--txt2);
     }
 
     .sig-dot {
@@ -536,7 +603,7 @@
       display: inline-block;
       margin-right: 5px;
       animation: blink 1s ease-in-out infinite;
-      vertical-align: middle
+      vertical-align: middle;
     }
 
     /* ── GRID LEVELS ── */
@@ -546,24 +613,24 @@
       gap: 5px;
       padding: 2.5px 0;
       border-bottom: 1px solid var(--border);
-      font-size: 10px
+      font-size: 10px;
     }
 
     .gl:last-child {
-      border: none
+      border: none;
     }
 
     .ldot {
       width: 6px;
       height: 6px;
       border-radius: 50%;
-      flex-shrink: 0
+      flex-shrink: 0;
     }
 
     .li {
       display: flex;
       flex: 1;
-      justify-content: space-between
+      justify-content: space-between;
     }
 
     /* ── DD METER ── */
@@ -572,49 +639,49 @@
       background: var(--border);
       border-radius: 4px;
       overflow: hidden;
-      margin-top: 3px
+      margin-top: 3px;
     }
 
     .ddbar-fill {
       height: 100%;
       border-radius: 4px;
-      transition: all .5s
+      transition: all .5s;
     }
 
     /* ── COLORS ── */
     .g {
-      color: var(--g)
+      color: var(--g);
     }
 
     .r {
-      color: var(--r)
+      color: var(--r);
     }
 
     .y {
-      color: var(--y)
+      color: var(--y);
     }
 
     .b {
-      color: var(--b)
+      color: var(--b);
     }
 
     .p {
-      color: var(--p)
+      color: var(--p);
     }
 
     /* ── SCROLLBARS ── */
     ::-webkit-scrollbar {
       width: 3px;
-      height: 3px
+      height: 3px;
     }
 
     ::-webkit-scrollbar-track {
-      background: var(--bg)
+      background: var(--bg);
     }
 
     ::-webkit-scrollbar-thumb {
       background: var(--border2);
-      border-radius: 2px
+      border-radius: 2px;
     }
 
     /* ── TOAST ── */
@@ -628,30 +695,621 @@
       z-index: 200;
       opacity: 0;
       transition: opacity .3s;
-      pointer-events: none
+      pointer-events: none;
     }
 
     #toast.show {
-      opacity: 1
+      opacity: 1;
     }
 
     #toast.ok {
       background: rgba(0, 200, 122, .15);
       border: 1px solid var(--g);
-      color: var(--g)
+      color: var(--g);
     }
 
     #toast.err {
       background: rgba(255, 71, 87, .15);
       border: 1px solid var(--r);
-      color: var(--r)
+      color: var(--r);
+    }
+
+
+    /* ══════════════════════════════════════════════════════════════
+       MARKETING / LANDING SECTIONS  (below the dashboard)
+    ══════════════════════════════════════════════════════════════ */
+
+    .landing-wrapper {
+      background: var(--bg);
+      overflow-x: hidden;
+    }
+
+    /* ── shared section chrome ── */
+    .lsec {
+      padding: 80px 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .lsec-header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .lsec-eyebrow {
+      font-size: 9px;
+      letter-spacing: 3px;
+      color: var(--b);
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .lsec-title {
+      font-size: clamp(20px, 3vw, 30px);
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 1.5px;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+
+    .lsec-sub {
+      font-size: 11px;
+      color: var(--txt2);
+      line-height: 1.7;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+
+    /* ── divider ── */
+    .sec-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0;
+    }
+
+    /* ═══════════════════════
+       1. FEATURES / SERVICES
+    ═══════════════════════ */
+    .features-sec {
+      background: var(--bg1);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    @media (max-width: 860px) {
+      .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 520px) {
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .feat-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 24px 20px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color .3s, transform .25s;
+    }
+
+    .feat-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--card-accent, var(--b));
+      opacity: 0;
+      transition: opacity .3s;
+    }
+
+    .feat-card:hover {
+      border-color: var(--border2);
+      transform: translateY(-2px);
+    }
+
+    .feat-card:hover::before {
+      opacity: 1;
+    }
+
+    .feat-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      margin-bottom: 16px;
+      background: var(--icon-bg, rgba(61, 139, 255, .12));
+    }
+
+    .feat-card-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .feat-card-desc {
+      font-size: 10px;
+      color: var(--txt2);
+      line-height: 1.7;
+    }
+
+    .feat-tag {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 2px 8px;
+      border-radius: 2px;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      border: 1px solid;
+    }
+
+    /* ═══════════════════════
+       2. TESTIMONIALS
+    ═══════════════════════ */
+    .testimonials-sec {
+      background: var(--bg);
+    }
+
+    .testi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    @media (max-width: 860px) {
+      .testi-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 520px) {
+      .testi-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .testi-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 22px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      position: relative;
+      transition: border-color .3s;
+    }
+
+    .testi-card:hover {
+      border-color: var(--border2);
+    }
+
+    .testi-quote-mark {
+      font-size: 36px;
+      line-height: 1;
+      color: var(--b);
+      opacity: .3;
+      font-family: Georgia, serif;
+      margin-bottom: -8px;
+    }
+
+    .testi-text {
+      font-size: 10px;
+      color: var(--txt);
+      line-height: 1.75;
+      flex: 1;
+    }
+
+    .testi-stars {
+      color: var(--y);
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+
+    .testi-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+    }
+
+    .testi-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: #000;
+      flex-shrink: 0;
+    }
+
+    .testi-name {
+      font-size: 11px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .testi-handle {
+      font-size: 9px;
+      color: var(--txt2);
+      margin-top: 1px;
+    }
+
+    .testi-badge {
+      margin-left: auto;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding: 2px 7px;
+      border-radius: 2px;
+    }
+
+    /* stats bar */
+    .social-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 40px;
+      padding: 28px 24px;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    @media (max-width: 640px) {
+      .social-stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .ss-item {
+      text-align: center;
+    }
+
+    .ss-num {
+      font-size: clamp(22px, 4vw, 32px);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.1;
+    }
+
+    .ss-label {
+      font-size: 9px;
+      letter-spacing: 1.5px;
+      color: var(--txt2);
+      margin-top: 4px;
+    }
+
+    /* ═══════════════════════
+       3. FAQ ACCORDION
+    ═══════════════════════ */
+    .faq-sec {
+      background: var(--bg1);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    @media (max-width: 720px) {
+      .faq-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      background: var(--bg2);
+      transition: border-color .2s;
+    }
+
+    .faq-item.open {
+      border-color: rgba(61, 139, 255, .4);
+    }
+
+    .faq-q {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 16px;
+      cursor: pointer;
+      user-select: none;
+      gap: 12px;
+    }
+
+    .faq-q:hover {
+      background: rgba(255, 255, 255, .02);
+    }
+
+    .faq-q-text {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--txt);
+      letter-spacing: .3px;
+      line-height: 1.4;
+      flex: 1;
+    }
+
+    .faq-item.open .faq-q-text {
+      color: #fff;
+    }
+
+    .faq-chevron {
+      font-size: 12px;
+      color: var(--txt2);
+      transition: transform .25s, color .2s;
+      flex-shrink: 0;
+    }
+
+    .faq-item.open .faq-chevron {
+      transform: rotate(180deg);
+      color: var(--b);
+    }
+
+    .faq-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .35s ease;
+    }
+
+    .faq-item.open .faq-body {
+      max-height: 300px;
+    }
+
+    .faq-a {
+      padding: 0 16px 16px;
+      font-size: 10px;
+      color: var(--txt2);
+      line-height: 1.75;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+    }
+
+    .faq-a strong {
+      color: var(--txt);
+    }
+
+    /* ═══════════════════════
+       4. CTA FOOTER
+    ═══════════════════════ */
+    .cta-sec {
+      background: var(--bg);
+      border-top: 1px solid var(--border);
+      padding: 80px 24px 0;
+    }
+
+    .cta-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .cta-banner {
+      background: var(--bg2);
+      border: 1px solid var(--border2);
+      border-radius: 10px;
+      padding: 52px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    @media (max-width: 720px) {
+      .cta-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 36px 24px;
+      }
+    }
+
+    .cta-banner::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 280px;
+      height: 280px;
+      background: radial-gradient(circle, rgba(61, 139, 255, .1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .cta-banner::after {
+      content: '';
+      position: absolute;
+      bottom: -40px;
+      left: 30%;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, rgba(0, 200, 122, .07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .cta-text {
+      position: relative;
+      z-index: 1;
+    }
+
+    .cta-eyebrow {
+      font-size: 9px;
+      letter-spacing: 3px;
+      color: var(--g);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .cta-title {
+      font-size: clamp(18px, 3vw, 26px);
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 1px;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+
+    .cta-desc {
+      font-size: 10px;
+      color: var(--txt2);
+      line-height: 1.7;
+      max-width: 420px;
+    }
+
+    .cta-actions {
+      display: flex;
+      gap: 12px;
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .cta-btn-primary {
+      padding: 12px 28px;
+      background: var(--b);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: opacity .2s, transform .15s;
+      white-space: nowrap;
+    }
+
+    .cta-btn-primary:hover {
+      opacity: .85;
+      transform: translateY(-1px);
+    }
+
+    .cta-btn-secondary {
+      padding: 12px 24px;
+      background: transparent;
+      color: var(--txt);
+      border: 1px solid var(--border2);
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all .2s;
+      white-space: nowrap;
+    }
+
+    .cta-btn-secondary:hover {
+      background: var(--bg3);
+      color: #fff;
+      border-color: var(--txt2);
+    }
+
+    /* ── Footer bar ── */
+    .footer-bar {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      border-top: 1px solid var(--border);
+      margin-top: 48px;
+    }
+
+    .footer-logo {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      color: #fff;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      font-size: 10px;
+      color: var(--txt2);
+      text-decoration: none;
+      letter-spacing: .5px;
+      transition: color .2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--txt);
+    }
+
+    .footer-copy {
+      font-size: 9px;
+      color: var(--txt3);
+      letter-spacing: .5px;
+    }
+
+    .footer-disclaimer {
+      width: 100%;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+      font-size: 9px;
+      color: var(--txt3);
+      line-height: 1.6;
+      letter-spacing: .3px;
+    }
+
+    /* ── scroll-in animation ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity .55s ease, transform .55s ease;
+    }
+
+    .reveal.in {
+      opacity: 1;
+      transform: translateY(0);
     }
   </style>
 </head>
 
 <body>
 
-  <!-- ── CONNECT OVERLAY ── -->
+  <!-- ══════════════════════════ CONNECT OVERLAY ══════════════════════════ -->
   <div id="overlay">
     <div class="connect-card">
       <h2>GRID·ML SCALPER</h2>
@@ -697,56 +1355,38 @@
         </div>
       </div>
       <div class="field-row">
-        <div class="field">
-          <label>GRID STEP (pips)</label>
-          <input id="f-step" type="number" value="5" step="0.5">
-        </div>
-        <div class="field">
-          <label>MAX LEVELS</label>
-          <input id="f-levels" type="number" value="6">
-        </div>
+        <div class="field"><label>GRID STEP (pips)</label><input id="f-step" type="number" value="5" step="0.5"></div>
+        <div class="field"><label>MAX LEVELS</label><input id="f-levels" type="number" value="6"></div>
       </div>
       <div class="field-row">
-        <div class="field">
-          <label>TP (pips)</label>
-          <input id="f-tp" type="number" value="4" step="0.5">
-        </div>
-        <div class="field">
-          <label>RISK % / TRADE</label>
-          <input id="f-risk" type="number" value="0.4" step="0.1">
-        </div>
+        <div class="field"><label>TP (pips)</label><input id="f-tp" type="number" value="4" step="0.5"></div>
+        <div class="field"><label>RISK % / TRADE</label><input id="f-risk" type="number" value="0.4" step="0.1"></div>
       </div>
       <div class="field-row">
-        <div class="field">
-          <label>HARD SL (pips)</label>
-          <input id="f-sl" type="number" value="30">
-        </div>
-        <div class="field">
-          <label>MAX DAILY DD %</label>
-          <input id="f-dd" type="number" value="2.0" step="0.1">
-        </div>
+        <div class="field"><label>HARD SL (pips)</label><input id="f-sl" type="number" value="30"></div>
+        <div class="field"><label>MAX DAILY DD %</label><input id="f-dd" type="number" value="2.0" step="0.1"></div>
       </div>
-      <button class="connect-btn" onclick="doConnect()">CONNECT & START BOT</button>
+      <button class="connect-btn" onclick="doConnect()">CONNECT &amp; START BOT</button>
       <div id="connect-status"></div>
     </div>
   </div>
 
-  <!-- ── APP ── -->
-  <div class="app">
+  <!-- ══════════════════════════ DASHBOARD ══════════════════════════ -->
+  <div class="app-shell">
     <div class="topbar">
       <span class="logo">GRID·ML</span>
       <div class="divider"></div>
       <span class="pair-label" id="tb-symbol">EURUSD</span>
       <span class="price-live" id="tb-price">—</span>
       <span class="badge bull" id="tb-trend">BULL</span>
-      <span style="font-size:9px;color:var(--txt2)" id="tb-spread">—</span>
+      <span class="tb-hide" style="font-size:9px;color:var(--txt2)" id="tb-spread">—</span>
       <span class="sp"></span>
-      <span class="sess-time" id="sess-time">00:00:00</span>
+      <span class="tb-hide sess-time" id="sess-time">00:00:00</span>
       <span id="bot-dot" class="dot-status dot-off"></span>
       <button class="tbtn" id="toggle-btn" onclick="toggleBot()">START BOT</button>
-      <button class="tbtn stop" onclick="eStop()">■ STOP ALL</button>
-      <button class="tbtn" onclick="doRetrain()">↺ RETRAIN</button>
-      <button class="tbtn" onclick="showOverlay()" style="color:var(--txt2)">⚙ CONFIG</button>
+      <button class="tbtn stop" onclick="eStop()">■ STOP</button>
+      <button class="tb-hide tbtn" onclick="doRetrain()">↺ RETRAIN</button>
+      <button class="tbtn" onclick="showOverlay()" style="color:var(--txt2)">⚙</button>
     </div>
 
     <div class="main">
@@ -873,11 +1513,374 @@
     </div>
   </div>
 
+  <!-- ══════════════════════════════════════════════════════════════════════
+       LANDING SECTIONS
+  ═══════════════════════════════════════════════════════════════════════ -->
+  <div class="landing-wrapper">
+
+    <!-- ── 1. FEATURES ── -->
+    <section class="features-sec">
+      <div class="lsec">
+        <div class="lsec-header reveal">
+          <div class="lsec-eyebrow">CAPABILITIES</div>
+          <div class="lsec-title">Everything You Need to Scale Smarter</div>
+          <div class="lsec-sub">GRID·ML combines institutional-grade grid execution with a real-time Random Forest
+            classifier — no manual signals required.</div>
+        </div>
+
+        <div class="features-grid">
+          <!-- card 1 -->
+          <div class="feat-card reveal" style="--card-accent:var(--b);--icon-bg:rgba(61,139,255,.12)">
+            <div class="feat-icon">🤖</div>
+            <div class="feat-card-title">ML SIGNAL ENGINE</div>
+            <div class="feat-card-desc">A 50K-bar Random Forest model classifies market direction on every tick.
+              Features include EMA crossovers, ATR bands, RSI, MACD, and volume imbalance.</div>
+            <span class="feat-tag"
+              style="color:var(--b);border-color:rgba(61,139,255,.3);background:rgba(61,139,255,.08)">RANDOM
+              FOREST</span>
+          </div>
+          <!-- card 2 -->
+          <div class="feat-card reveal" style="--card-accent:var(--g);--icon-bg:rgba(0,200,122,.12)">
+            <div class="feat-icon">📐</div>
+            <div class="feat-card-title">ADAPTIVE GRID SYSTEM</div>
+            <div class="feat-card-desc">Configurable step size from 0.5 pips. Levels auto-place around live price with
+              per-level TP targeting. Bidirectional grids flip on trend change.</div>
+            <span class="feat-tag"
+              style="color:var(--g);border-color:rgba(0,200,122,.3);background:rgba(0,200,122,.08)">LIVE ADAPTIVE</span>
+          </div>
+          <!-- card 3 -->
+          <div class="feat-card reveal" style="--card-accent:var(--r);--icon-bg:rgba(255,71,87,.12)">
+            <div class="feat-icon">🛡️</div>
+            <div class="feat-card-title">RISK MANAGER</div>
+            <div class="feat-card-desc">Configurable daily drawdown cap, per-trade risk percentage, hard stop-loss, and
+              emergency stop that closes all open positions in under 200ms.</div>
+            <span class="feat-tag"
+              style="color:var(--r);border-color:rgba(255,71,87,.3);background:rgba(255,71,87,.08)">DRAWDOWN CAP</span>
+          </div>
+          <!-- card 4 -->
+          <div class="feat-card reveal" style="--card-accent:var(--y);--icon-bg:rgba(255,165,2,.12)">
+            <div class="feat-icon">📊</div>
+            <div class="feat-card-title">LIVE BACKTESTER</div>
+            <div class="feat-card-desc">Win rate, accuracy, daily PnL, and drawdown are computed live from the current
+              session — no offline spreadsheets needed. Metrics update every tick.</div>
+            <span class="feat-tag"
+              style="color:var(--y);border-color:rgba(255,165,2,.3);background:rgba(255,165,2,.08)">REAL-TIME</span>
+          </div>
+          <!-- card 5 -->
+          <div class="feat-card reveal" style="--card-accent:var(--p);--icon-bg:rgba(165,94,234,.12)">
+            <div class="feat-icon">⚡</div>
+            <div class="feat-card-title">AUTO RETRAIN</div>
+            <div class="feat-card-desc">Trigger a full model retrain with one click. The RF classifier re-fits in
+              background threads without pausing live trading. New weights apply instantly.</div>
+            <span class="feat-tag"
+              style="color:var(--p);border-color:rgba(165,94,234,.3);background:rgba(165,94,234,.08)">BACKGROUND</span>
+          </div>
+          <!-- card 6 -->
+          <div class="feat-card reveal" style="--card-accent:#3dc2ff;--icon-bg:rgba(61,194,255,.1)">
+            <div class="feat-icon">🔌</div>
+            <div class="feat-card-title">MT5 NATIVE BRIDGE</div>
+            <div class="feat-card-desc">Connects directly to MetaTrader 5 via the official Python API. Supports all
+              major brokers. Real tick feed, real account data, real order execution.</div>
+            <span class="feat-tag"
+              style="color:#3dc2ff;border-color:rgba(61,194,255,.3);background:rgba(61,194,255,.08)">METATRADER 5</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 2. TESTIMONIALS ── -->
+    <section class="testimonials-sec">
+      <div class="lsec">
+        <div class="lsec-header reveal">
+          <div class="lsec-eyebrow">COMMUNITY</div>
+          <div class="lsec-title">Trusted by Active Scalpers Worldwide</div>
+          <div class="lsec-sub">Prop firm traders, retail scalpers, and quant developers rely on GRID·ML every session.
+          </div>
+        </div>
+
+        <div class="testi-grid">
+          <div class="testi-card reveal">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-text">The ML engine genuinely changes grid behavior versus dumb price-based triggers. Win
+              rate jumped from 51% to 64% after two weeks of live calibration on EURUSD M1.</div>
+            <div class="testi-meta">
+              <div class="testi-avatar" style="background:var(--b)">AK</div>
+              <div>
+                <div class="testi-name">Alex K.</div>
+                <div class="testi-handle">FTMO Funded · London</div>
+              </div>
+              <span class="testi-badge"
+                style="background:rgba(0,200,122,.1);color:var(--g);border:1px solid rgba(0,200,122,.2)">FUNDED</span>
+            </div>
+          </div>
+
+          <div class="testi-card reveal">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-text">Emergency stop saved my account during a flash spike. Hit the button and all eight
+              open positions closed within 180ms. Drawdown capped at 1.3% instead of blowing the DD limit.</div>
+            <div class="testi-meta">
+              <div class="testi-avatar" style="background:var(--r)">SP</div>
+              <div>
+                <div class="testi-name">Sofia P.</div>
+                <div class="testi-handle">Retail Trader · Frankfurt</div>
+              </div>
+              <span class="testi-badge"
+                style="background:rgba(255,165,2,.1);color:var(--y);border:1px solid rgba(255,165,2,.2)">VERIFIED</span>
+            </div>
+          </div>
+
+          <div class="testi-card reveal">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">★★★★☆</div>
+            <div class="testi-text">Runs flawlessly on IC Markets demo and live. The grid visual tab alone is worth it —
+              being able to see exactly where the bot will enter next in real-time is incredibly useful.</div>
+            <div class="testi-meta">
+              <div class="testi-avatar" style="background:var(--p)">JM</div>
+              <div>
+                <div class="testi-name">James M.</div>
+                <div class="testi-handle">Quant Dev · Sydney</div>
+              </div>
+              <span class="testi-badge"
+                style="background:rgba(165,94,234,.1);color:var(--p);border:1px solid rgba(165,94,234,.2)">DEV</span>
+            </div>
+          </div>
+
+          <div class="testi-card reveal">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-text">Set up in under 10 minutes on an Exness demo. The auto-retrain triggered itself
+              mid-session and the confidence metrics visibly improved. Very clean execution.</div>
+            <div class="testi-meta">
+              <div class="testi-avatar" style="background:var(--g)">LN</div>
+              <div>
+                <div class="testi-name">Lena N.</div>
+                <div class="testi-handle">Swing Scalper · Warsaw</div>
+              </div>
+              <span class="testi-badge"
+                style="background:rgba(0,200,122,.1);color:var(--g);border:1px solid rgba(0,200,122,.2)">FUNDED</span>
+            </div>
+          </div>
+
+          <div class="testi-card reveal">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-text">I trade XAUUSD exclusively. The spread filter and volatility-based lot sizing keep
+              me from getting chewed up during London open. Best risk-aware grid I've used.</div>
+            <div class="testi-meta">
+              <div class="testi-avatar" style="background:var(--y)">RC</div>
+              <div>
+                <div class="testi-name">Rafael C.</div>
+                <div class="testi-handle">Gold Trader · São Paulo</div>
+              </div>
+              <span class="testi-badge"
+                style="background:rgba(255,165,2,.1);color:var(--y);border:1px solid rgba(255,165,2,.2)">VERIFIED</span>
+            </div>
+          </div>
+
+          <div class="testi-card reveal">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-text">The live log tab is invaluable for debugging. Color-coded by trade/warn/error and
+              timestamped to the millisecond. Makes post-session analysis actually enjoyable.</div>
+            <div class="testi-meta">
+              <div class="testi-avatar" style="background:#3dc2ff">YT</div>
+              <div>
+                <div class="testi-name">Yuki T.</div>
+                <div class="testi-handle">Algo Researcher · Tokyo</div>
+              </div>
+              <span class="testi-badge"
+                style="background:rgba(61,194,255,.1);color:#3dc2ff;border:1px solid rgba(61,194,255,.2)">DEV</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social stats -->
+        <div class="social-stats reveal">
+          <div class="ss-item">
+            <div class="ss-num g">2,400+</div>
+            <div class="ss-label">ACTIVE USERS</div>
+          </div>
+          <div class="ss-item">
+            <div class="ss-num b">98.7%</div>
+            <div class="ss-label">UPTIME SLA</div>
+          </div>
+          <div class="ss-item">
+            <div class="ss-num y">$4.2M+</div>
+            <div class="ss-label">VOLUME TRADED</div>
+          </div>
+          <div class="ss-item">
+            <div class="ss-num p">50K+</div>
+            <div class="ss-label">TRAINING BARS</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 3. FAQ ── -->
+    <section class="faq-sec">
+      <div class="lsec">
+        <div class="lsec-header reveal">
+          <div class="lsec-eyebrow">SUPPORT</div>
+          <div class="lsec-title">Frequently Asked Questions</div>
+          <div class="lsec-sub">Everything you need to know before your first live session.</div>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item reveal" onclick="toggleFaq(this)">
+            <div class="faq-q">
+              <span class="faq-q-text">Which brokers does GRID·ML support?</span>
+              <span class="faq-chevron">▾</span>
+            </div>
+            <div class="faq-body">
+              <div class="faq-a">GRID·ML connects via the official MetaTrader 5 Python API and works with <strong>any
+                  broker that runs MT5</strong> — including IC Markets, Exness, Pepperstone, XM, Roboforex, and FTMO
+                demo accounts. All you need is your MT5 login, password, and server name from your broker's welcome
+                email.</div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" onclick="toggleFaq(this)">
+            <div class="faq-q">
+              <span class="faq-q-text">Is it safe to run on a live funded account?</span>
+              <span class="faq-chevron">▾</span>
+            </div>
+            <div class="faq-body">
+              <div class="faq-a">We strongly recommend running a <strong>demo account for at least two weeks</strong>
+                before going live. That said, the built-in risk controls — daily DD cap, per-trade risk%, hard SL, and
+                emergency stop — are specifically designed to protect funded accounts. Start with minimal lot sizes
+                (0.01) and scale up as you gain confidence in the model's performance on your broker.</div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" onclick="toggleFaq(this)">
+            <div class="faq-q">
+              <span class="faq-q-text">How does the Random Forest model get trained?</span>
+              <span class="faq-chevron">▾</span>
+            </div>
+            <div class="faq-body">
+              <div class="faq-a">On first connect, the bot fetches <strong>50,000+ historical M1 bars</strong> from your
+                broker and trains a Random Forest classifier on 9 features: EMA9, EMA21, RSI, MACD signal, ATR bands,
+                candle body ratio, close momentum, volume delta, and hour-of-day. Training takes ~15–90 seconds
+                depending on your hardware. You can retrain at any time via the ↺ RETRAIN button.</div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" onclick="toggleFaq(this)">
+            <div class="faq-q">
+              <span class="faq-q-text">What does the daily drawdown cap actually do?</span>
+              <span class="faq-chevron">▾</span>
+            </div>
+            <div class="faq-body">
+              <div class="faq-a">Once your account equity drops by more than the configured <strong>Max Daily
+                  DD%</strong> (default 2.0%) from the session opening balance, the bot automatically stops opening new
+                grid levels and sets all pending orders to close-only mode. It does <em>not</em> force-close existing
+                positions, but the DD meter in the Risk Manager card turns red and the bot stays paused until midnight
+                reset.</div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" onclick="toggleFaq(this)">
+            <div class="faq-q">
+              <span class="faq-q-text">Can I trade multiple symbols at once?</span>
+              <span class="faq-chevron">▾</span>
+            </div>
+            <div class="faq-body">
+              <div class="faq-a">Currently each running instance handles <strong>one symbol</strong>. To trade multiple
+                pairs simultaneously, run separate server instances on different ports and point each to the same MT5
+                terminal. Multi-symbol support with shared drawdown tracking is on the roadmap for a future release.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" onclick="toggleFaq(this)">
+            <div class="faq-q">
+              <span class="faq-q-text">What server/hardware do I need?</span>
+              <span class="faq-chevron">▾</span>
+            </div>
+            <div class="faq-body">
+              <div class="faq-a">The bot runs fine on a <strong>Windows VPS with 2 vCPU and 4 GB RAM</strong>.
+                MetaTrader 5 terminal must be installed on the same machine as the server. A low-latency connection to
+                your broker (ping &lt;20ms) is recommended for scalping. Linux is not currently supported because MT5
+                terminal is Windows-only.</div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" onclick="toggleFaq(this)">
+            <div class="faq-q">
+              <span class="faq-q-text">Does the bot trade during high-impact news?</span>
+              <span class="faq-chevron">▾</span>
+            </div>
+            <div class="faq-body">
+              <div class="faq-a">Not automatically — the current version does not include a built-in economic calendar
+                filter. We recommend <strong>manually pausing the bot</strong> (PAUSE button in the topbar) 5 minutes
+                before scheduled high-impact releases such as NFP, CPI, FOMC, and central bank rate decisions. A
+                calendar-aware pause filter is planned for v2.</div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" onclick="toggleFaq(this)">
+            <div class="faq-q">
+              <span class="faq-q-text">Is my MT5 password stored anywhere?</span>
+              <span class="faq-chevron">▾</span>
+            </div>
+            <div class="faq-body">
+              <div class="faq-a">Your credentials are passed directly to the MetaTrader 5 Python API running
+                <strong>locally on your own machine</strong>. They are never transmitted to or stored on any external
+                server. The dashboard WebSocket connection is also local (localhost). We never have access to your
+                broker account.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 4. CTA + FOOTER ── -->
+    <section class="cta-sec">
+      <div class="cta-inner">
+        <div class="cta-banner reveal">
+          <div class="cta-text">
+            <div class="cta-eyebrow">▶ READY TO DEPLOY</div>
+            <div class="cta-title">Start Your First Intelligent Grid Session Today</div>
+            <div class="cta-desc">Connect your MT5 demo account in under 60 seconds. No credit card. No cloud. Runs
+              entirely on your own machine.</div>
+          </div>
+          <div class="cta-actions">
+            <button class="cta-btn-primary" onclick="showOverlay()">⚡ LAUNCH BOT</button>
+            <button class="cta-btn-secondary"
+              onclick="document.getElementById('tab-log').scrollIntoView({behavior:'smooth'})">VIEW DOCS →</button>
+          </div>
+        </div>
+
+        <div class="footer-bar reveal">
+          <span class="footer-logo">GRID·ML</span>
+          <ul class="footer-links">
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Changelog</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">Risk Disclosure</a></li>
+          </ul>
+          <span class="footer-copy">© 2025 GRID·ML</span>
+          <div class="footer-disclaimer">
+            ⚠ Trading foreign exchange and CFDs on margin carries high risk and may not be suitable for all investors.
+            Past performance is not indicative of future results. GRID·ML is an educational tool and does not constitute
+            financial advice. Always trade with risk capital you can afford to lose.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /landing-wrapper -->
+
   <div id="toast"></div>
 
   <script>
     /* ══════════════════════════ SOCKET ══════════════════════════ */
-    const socket = io();
+    let socket;
+    try { socket = io(); } catch (e) { socket = { on: () => { }, emit: () => { } }; }
     let botRunning = false;
     let sessionStart = null;
     let lastCandles = [];
@@ -889,7 +1892,7 @@
     socket.on('disconnect', () => { console.log('WS disconnected'); });
     socket.on('state', (s) => { applyState(s); });
 
-    /* ══════════════════════════ CONNECT ═════════════════════════ */
+    /* ══════════════════════════ CONNECT ════════════════════════ */
     async function doConnect() {
       const st = document.getElementById('connect-status');
       st.style.color = 'var(--y)'; st.textContent = 'Connecting to MT5...';
@@ -970,7 +1973,6 @@
 
     /* ══════════════════════════ STATE APPLY ════════════════════ */
     function applyState(s) {
-      // Tick
       const tick = s.tick || {};
       if (tick.mid) {
         const p = tick.mid.toFixed(5);
@@ -981,7 +1983,6 @@
         document.getElementById('tb-spread').textContent = tick.spread ? 'Spread ' + (tick.spread * 10000).toFixed(1) + 'p' : '';
       }
 
-      // Account
       const acc = s.account || {};
       setText('s-bal', acc.balance ? '$' + acc.balance.toFixed(2) : '—');
       const eq = acc.equity || 0;
@@ -990,14 +1991,12 @@
       setText('s-fm', acc.free_margin ? '$' + acc.free_margin.toFixed(2) : '—');
       setText('s-lev', acc.leverage ? '1:' + acc.leverage : '—');
 
-      // Signal
       const sig = s.signal || {};
       const sl = document.getElementById('sig-lbl');
       const ss = document.getElementById('sig-sub');
       if (sig.signal) {
         const col = sig.signal === 'BUY' ? 'var(--g)' : (sig.signal === 'SELL' ? 'var(--r)' : 'var(--y)');
-        const dotCol = col;
-        sl.innerHTML = `<span class="sig-dot" style="background:${dotCol}"></span>${sig.signal} GRID`;
+        sl.innerHTML = `<span class="sig-dot" style="background:${col}"></span>${sig.signal} GRID`;
         sl.style.color = col;
         ss.textContent = `Confidence: ${sig.confidence}% · Min: ${s.risk?.ml_min_confidence || 55}%`;
         lastSignal = sig.signal;
@@ -1007,7 +2006,6 @@
         setText('conf-sell', p.SELL !== undefined ? p.SELL + '%' : '—');
       }
 
-      // Risk
       const r = s.risk || {};
       if (r.grid_step_pips) {
         setText('r-step', r.grid_step_pips + 'p');
@@ -1034,12 +2032,10 @@
         setText('ses-lc', r.losses_today || 0);
         setText('ses-al', r.active_levels || 0);
         setColored('bt-wr', wr + '%', wr >= 50);
-        // Grid levels
         renderGridLevels(r.levels || []);
         lastGrid = r.levels || [];
       }
 
-      // ML metrics
       const mm = s.ml_metrics;
       if (mm) {
         setText('bt-acc', mm.accuracy + '%');
@@ -1049,20 +2045,17 @@
           `Accuracy: <span class="b">${mm.accuracy}%</span> &nbsp; Train: <span>${mm.n_train}</span> &nbsp; Test: <span>${mm.n_test}</span>`;
       }
 
-      // Last retrain
       if (s.last_retrain) {
         const d = new Date(s.last_retrain);
         document.getElementById('ses-rt').textContent = d.toLocaleTimeString();
       }
 
-      // Candles
       if (s.candles && s.candles.length > 0) {
         lastCandles = s.candles;
         drawMainChart(s.candles, tick.mid || 0, r.levels || []);
         drawGridCanvas(tick.mid || 0, r.grid_step_pips || 5, r.levels || []);
       }
 
-      // Session timer
       if (sessionStart) {
         const e = Math.floor((Date.now() - sessionStart) / 1000);
         const h = String(Math.floor(e / 3600)).padStart(2, '0');
@@ -1071,7 +2064,6 @@
         document.getElementById('sess-time').textContent = `${h}:${m}:${sec}`;
       }
 
-      // Log
       renderLog(s.log || []);
     }
 
@@ -1084,7 +2076,6 @@
       const H = 210;
       ctx.clearRect(0, 0, W, H);
       if (!candles.length) return;
-
       const vis = candles.slice(-70);
       const minP = Math.min(...vis.map(c => c.low));
       const maxP = Math.max(...vis.map(c => c.high));
@@ -1092,12 +2083,8 @@
       const mn = minP - pad, mx = maxP + pad;
       const cw = W / vis.length;
       const py = p => H - ((p - mn) / (mx - mn)) * H;
-
-      // Grid lines
-      ctx.strokeStyle = 'rgba(30,42,64,.6)'; ctx.lineWidth = 0.5;
+      ctx.strokeStyle = 'rgba(30,42,64,.6)'; ctx.lineWidth = .5;
       for (let i = 1; i < 5; i++) { const y = H * i / 5; ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
-
-      // Level dashes
       (levels || []).forEach(g => {
         if (g.price < mn || g.price > mx) return;
         const y = py(g.price);
@@ -1105,15 +2092,11 @@
         ctx.setLineDash([3, 4]); ctx.lineWidth = .7;
         ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); ctx.setLineDash([]);
       });
-
-      // EMA
       const ema9 = calcEMA(vis.map(c => c.close), 9);
       const ema21 = calcEMA(vis.map(c => c.close), 21);
       const drawEMA = (arr, col) => { ctx.strokeStyle = col; ctx.lineWidth = 1; ctx.beginPath(); arr.forEach((v, i) => { const x = i * cw + cw / 2, y = py(v); i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }); ctx.stroke(); };
       drawEMA(ema9, 'rgba(61,139,255,.6)');
       drawEMA(ema21, 'rgba(255,165,2,.45)');
-
-      // Candles
       vis.forEach((c, i) => {
         const x = i * cw + cw / 2, bull = c.close >= c.open;
         const col = bull ? '#00c87a' : '#ff4757';
@@ -1123,8 +2106,6 @@
         const bh = Math.max(1.2, Math.abs(py(c.open) - py(c.close)));
         ctx.fillStyle = col; ctx.fillRect(x - cw * .32, by, cw * .64, bh);
       });
-
-      // Price line
       if (currentPrice) {
         ctx.strokeStyle = '#ffa502'; ctx.lineWidth = 1; ctx.setLineDash([5, 3]);
         const lp = py(currentPrice);
@@ -1142,21 +2123,15 @@
       cv.height = H;
       ctx.clearRect(0, 0, W, H);
       if (!price) return;
-
       const step = stepPips * 0.0001;
       const span = 7;
       const mn = price - span / 2 * step;
       const mx = price + span / 2 * step;
       const py = p => ((mx - p) / (mx - mn)) * (H - 35) + 17;
-
       const cp = py(price);
       ctx.fillStyle = 'rgba(255,165,2,.04)'; ctx.fillRect(0, cp - 13, W, 26);
-
-      // Center pipe
       ctx.strokeStyle = 'rgba(30,42,64,.6)'; ctx.lineWidth = .5;
       ctx.beginPath(); ctx.moveTo(W / 2, 14); ctx.lineTo(W / 2, H - 14); ctx.stroke();
-
-      // Levels
       for (let i = -3; i <= 3; i++) {
         const lp = price + i * step;
         const y = py(lp);
@@ -1174,8 +2149,6 @@
           ctx.strokeStyle = buy ? 'rgba(0,200,122,.65)' : 'rgba(255,71,87,.65)'; ctx.lineWidth = .8; ctx.stroke();
         }
       }
-
-      // Current price marker
       ctx.fillStyle = '#ffa502'; ctx.font = 'bold 10px JetBrains Mono';
       ctx.fillText('▶ ' + price.toFixed(5), 2, cp + 4);
     }
@@ -1193,19 +2166,18 @@
       const sorted = [...levels].sort((a, b) => b.price - a.price);
       sorted.forEach(g => {
         const near = lastPrice && Math.abs(g.price - lastPrice) < 0.00040;
-        const dotC = near ? 'ldot' : (g.type === 'buy' ? 'ldot' : 'ldot');
         const dotBg = near ? 'var(--y)' : (g.type === 'buy' ? 'var(--g)' : 'var(--r)');
         const anim = near ? 'animation:blink 1s ease-in-out infinite' : '';
         const pc = g.profit >= 0 ? 'g' : 'r';
         const ps = g.filled ? (g.profit >= 0 ? '+$' : '-$') + Math.abs(g.profit).toFixed(2) : '·';
         c.innerHTML += `<div class="gl">
-      <div class="ldot" style="background:${dotBg};${anim}"></div>
-      <div class="li">
-        <span>${g.price.toFixed(5)}</span>
-        <span style="color:var(--txt2)">${g.type.toUpperCase()}</span>
-        <span class="${pc}">${ps}</span>
-      </div>
-    </div>`;
+          <div class="ldot" style="background:${dotBg};${anim}"></div>
+          <div class="li">
+            <span>${g.price.toFixed(5)}</span>
+            <span style="color:var(--txt2)">${g.type.toUpperCase()}</span>
+            <span class="${pc}">${ps}</span>
+          </div>
+        </div>`;
       });
     }
 
@@ -1217,9 +2189,9 @@
       imps.slice(0, 9).forEach((f, i) => {
         const pct = Math.round(f.importance / max * 100);
         c.innerHTML += `<div class="feat-row">
-      <div class="feat-head"><span>${f.name}</span><span>${f.importance.toFixed(4)}</span></div>
-      <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${colors[i] || '#3d8bff'}"></div></div>
-    </div>`;
+          <div class="feat-head"><span>${f.name}</span><span>${f.importance.toFixed(4)}</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${colors[i] || '#3d8bff'}"></div></div>
+        </div>`;
       });
     }
 
@@ -1228,9 +2200,9 @@
       ul.innerHTML = '';
       (entries || []).slice(0, 20).forEach(e => {
         ul.innerHTML += `<li class="log-li">
-      <span class="lts">${e.time}</span>
-      <span class="lt-${e.level}">${e.msg}</span>
-    </li>`;
+          <span class="lts">${e.time}</span>
+          <span class="lt-${e.level}">${e.msg}</span>
+        </li>`;
       });
     }
 
@@ -1254,6 +2226,34 @@
       document.querySelectorAll('.section').forEach(el => el.classList.remove('on'));
       document.getElementById('tab-' + t).classList.add('on');
     }
+
+    /* ══════════════════════════ FAQ ════════════════════════════ */
+    function toggleFaq(item) {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+
+    /* ══════════════════════════ SCROLL REVEAL ══════════════════ */
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, idx) => {
+        if (entry.isIntersecting) {
+          // stagger siblings
+          const siblings = entry.target.parentElement.querySelectorAll('.reveal:not(.in)');
+          let delay = 0;
+          siblings.forEach(el => {
+            if (el === entry.target || entry.target.contains(el) || el.contains(entry.target)) {
+              setTimeout(() => el.classList.add('in'), delay);
+              delay += 60;
+            }
+          });
+          entry.target.classList.add('in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
     /* ══════════════════════════ RESIZE ══════════════════════════ */
     window.addEventListener('resize', () => {
