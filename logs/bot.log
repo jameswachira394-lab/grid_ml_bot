@@ -1799,3 +1799,24 @@ IndexError: list index out of range
 2026-03-16 10:43:35,842 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
 2026-03-16 10:43:35,844 [INFO] bot_engine — [WARN] Bot stopped
 2026-03-16 10:43:35,845 [INFO] bot_engine — Bot engine stopped
+2026-03-16 12:19:22,640 [INFO] __main__ — Grid ML Scalper server starting on http://localhost:5000
+2026-03-16 12:20:02,383 [INFO] __main__ — Dashboard client connected
+2026-03-16 12:20:02,855 [INFO] __main__ — Dashboard client connected
+2026-03-16 12:20:04,151 [INFO] __main__ — Dashboard client disconnected
+2026-03-16 12:20:14,049 [INFO] mt5_connector — Connected: 10401216 | FBS-Demo | Balance: 626.99
+2026-03-16 12:20:14,124 [INFO] ml_engine — Model loaded from disk
+2026-03-16 12:20:14,132 [INFO] bot_engine — [INFO] Retraining ML model...
+2026-03-16 12:20:14,132 [INFO] bot_engine — [INFO] Bot started
+2026-03-16 12:20:14,181 [INFO] bot_engine — Bot engine started
+2026-03-16 12:20:14,283 [INFO] ml_engine — Training on 5000 candles...
+2026-03-16 12:20:14,632 [INFO] ml_engine — Features: 37, Samples: 4981
+2026-03-16 12:20:14,643 [INFO] ml_engine — Label distribution: {0: 3718, 1: 649, -1: 614}
+2026-03-16 12:20:16,897 [INFO] ml_engine — Model saved
+2026-03-16 12:20:16,897 [INFO] ml_engine — Training done — accuracy: 63.4%
+2026-03-16 12:20:16,899 [INFO] bot_engine — [INFO] Retrain done — accuracy=63.4% | n_features=37
+2026-03-16 12:20:16,900 [INFO] risk_manager — New trading day — start balance: 626.99
+2026-03-16 12:20:16,900 [WARNING] risk_manager — Daily DD breached: 3.42% >= 2.0%
+2026-03-16 12:20:16,900 [INFO] bot_engine — [WARN] Daily drawdown limit hit — pausing
+2026-03-16 12:20:16,900 [INFO] bot_engine — [WARN] Bot stopped
+2026-03-16 12:20:16,901 [INFO] bot_engine — Bot engine stopped
+2026-03-16 12:24:57,572 [INFO] __main__ — Dashboard client disconnected

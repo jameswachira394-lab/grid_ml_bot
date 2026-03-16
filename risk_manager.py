@@ -35,11 +35,11 @@ class RiskConfig:
     lot_step:        float = 0.01
 
     # Daily limits
-    max_daily_dd_pct: float = 20.0         # stop bot if daily DD exceeds this
+    max_daily_dd_pct: float = 200.0         # stop bot if daily DD exceeds this
     max_trades_day:  int   = 100
 
     # ML thresholds
-    ml_min_confidence: float = 55.0       # minimum ML confidence to trade
+    ml_min_confidence: float = 80.0       # minimum ML confidence to trade
     ml_retrain_bars:   int   = 500        # retrain every N new bars
 
 
